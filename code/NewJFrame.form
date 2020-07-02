@@ -59,4 +59,10 @@
                   <Component id="jLabel2" min="-2" pref="60" max="-2" attributes="0"/>
                   <EmptySpace max="32767" attributes="0"/>
                   <Component id="HomeL" min="-2" pref="49" max="-2" attributes="0"/>
-                  
+                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                  <Component id="AboutUsL" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                  <Component id="ContactUsL" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                  <Component id="LearnApp" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="121" max="-2" attributes="0"/
