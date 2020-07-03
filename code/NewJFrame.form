@@ -75,4 +75,10 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Component id="jLabel2" alignment="0" pref="60" max="32767" attributes="0"/>
               <Group type="102" alignment="0" attributes="0">
-                  <Em
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="jLabel9" min="-2" pref="25" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="HomeL" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="AboutUsL" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ContactUsL" alignment="3" min="-2" max="-2" 
