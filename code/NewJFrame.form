@@ -213,4 +213,9 @@
                                   <Component id="jLabel23" alignment="1" min="-2" pref="120" max="-2" attributes="0"/>
                                   <Component id="jLabel26" min="-2" pref="120" max="-2" attributes="0"/>
                               </Group>
-                              <Empt
+                              <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="jLabel24" min="-2" pref="120" max="-2" attributes="0"/>
+                                  <Component id="jLabel18" min="-2" pref="120" max="-2" attributes="0"/>
+                                  <Component id="jLabel21" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel27" min="-2" pref="120" max="-2" attribute
