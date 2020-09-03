@@ -622,3 +622,10 @@
                               <EmptySpace min="-2" pref="98" max="-2" attributes="0"/>
                               <Component id="jButton3" min="-2" pref="178" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                              <Component id="path1" min="-2" pref="323" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel89" min="-2" pref="45" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="155" max="-2" attributes="0"/>
+                              <Component id="jLabel84" min="-2" pref="244" max="-2" attributes="0"/>
+                          </Gro
