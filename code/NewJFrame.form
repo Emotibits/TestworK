@@ -890,4 +890,10 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
                               <Component id="VarunImage" min="-2" max="-2" attributes="0"/>
-              
+                              <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
+                              <Component id="MyImage" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="jScrollPane3" min="-2" pref="210" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="jScrollPane4" min="-2" pref="246" max="-2" attribute
