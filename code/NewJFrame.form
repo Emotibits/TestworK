@@ -922,4 +922,15 @@
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                           <Component id="jScrollPane2" pref="70" max="32767" attributes="0"/>
                           <Component id="jScrollPane3" max="32767" attributes="0"/>
-                          <Component id="jScro
+                          <Component id="jScrollPane4" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+            
