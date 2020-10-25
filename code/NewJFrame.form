@@ -948,4 +948,11 @@
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
                     </Property>
                     <Property name="rows" type="int" value="5"/>
-                    <Property name="text" type="java.lang.String" value="We are Three Friends Persuing Bca Last Year ,&#xa;And Make this Project for o
+                    <Property name="text" type="java.lang.String" value="We are Three Friends Persuing Bca Last Year ,&#xa;And Make this Project for our Final year project Submission.&#xa;&#xa;A big Thanks To all Our respected Teachers who Gave the Idea to Make this Project&#xa; And also Help Us for this Project."/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="VarunImage">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.
