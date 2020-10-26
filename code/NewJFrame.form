@@ -965,4 +965,13 @@
             </Component>
             <Component class="javax.swing.JLabel" name="MyImage">
               <Properties>
-                <Property name="background" type="java.awt.Col
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="33" red="ff" type="rgb"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/securityz/Images/IMG20190622134417.jpg"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="BalkaranImage">
+        
