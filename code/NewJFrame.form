@@ -974,4 +974,12 @@
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="BalkaranImage">
-        
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="0" red="cc" type="rgb"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/securityz/Images/59744702_1133281180197965_3973984040414871552_n.jpg"/>
+                </Property>
+              </Properties>
+         
