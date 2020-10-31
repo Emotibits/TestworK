@@ -1006,4 +1006,15 @@
                     <Property name="text" type="java.lang.String" value="Blakaran Pal&#xa;Front-end Programmer,&#xa;Data Collector"/>
                     <Property name="autoscrolls" type="boolean" value="false"/>
                     <Property name="requestFocusEnabled" type="boolean" value="false"/>
- 
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JText
