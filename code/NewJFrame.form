@@ -1031,4 +1031,17 @@
                     <Property name="rows" type="int" value="3"/>
                     <Property name="tabSize" type="int" value="7"/>
                     <Property name="text" type="java.lang.String" value="Varun Sharma&#xa;Back-end Programmer,&#xa;Data-Collector"/>
-                    <Property name="autoscrolls" type=
+                    <Property name="autoscrolls" type="boolean" value="false"/>
+                    <Property name="requestFocusEnabled" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <
