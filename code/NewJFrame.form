@@ -1058,4 +1058,15 @@
                     <Property name="rows" type="int" value="3"/>
                     <Property name="tabSize" type="int" value="7"/>
                     <Property name="text" type="java.lang.String" value="Lakshay Sudan&#xa;Front-end+Back-end programmer &#xa;Data Collector"/>
-                    <Property 
+                    <Property name="autoscrolls" type="boolean" value="false"/>
+                    <Property name="requestFocusEnabled" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="ContactUsP">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color
