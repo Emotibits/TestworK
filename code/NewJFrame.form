@@ -1051,4 +1051,11 @@
                       <Color blue="33" green="33" red="33" type="rgb"/>
                     </Property>
                     <Property name="columns" type="int" value="20"/>
-                    <Property name="foreground" type="java.awt.Color" edi
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="3"/>
+                    <Property name="tabSize" type="int" value="7"/>
+                    <Property name="text" type="java.lang.String" value="Lakshay Sudan&#xa;Front-end+Back-end programmer &#xa;Data Collector"/>
+                    <Property 
