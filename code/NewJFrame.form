@@ -1584,4 +1584,12 @@
                         </Constraint>
                       </Constraints>
                     </Component>
-                    <Component class="j
+                    <Component class="javax.swing.JLabel" name="jLabel57">
+                      <Properties>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Next&gt;"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicke
