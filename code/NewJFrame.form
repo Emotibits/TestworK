@@ -1592,4 +1592,10 @@
                         <Property name="text" type="java.lang.String" value="Next&gt;"/>
                       </Properties>
                       <Events>
-                        <EventHandler event="mouseClicke
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel57MouseClicked"/>
+                      </Events>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                          <AbsoluteConstraints x="540" y="410" width="-1" height="20"/>
+                        </Constraint>
+                    
