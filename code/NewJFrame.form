@@ -1615,4 +1615,5 @@
                         <Component class="javax.swing.JTextArea" name="jTextArea6">
                           <Properties>
                             <Property name="columns" type="int" value="20"/>
-                            <Property name="ro
+                            <Property name="rows" type="int" value="5"/>
+                            <Property name="text" type="java.lang.String" value="Cryptography &#x2014; the science of secret writing &#x2014; is an ancient art; &#xa;the first documented use of cryptography in writing dates back to circa 1900 B.C. &#xa;when an Egyptian scribe used non-standard hieroglyphs in an inscription. Some experts&#xa; argue that cryptography appeared spontaneously sometime after writing was invented,&#xa; with applications ranging from diplomatic missives to war-time battle plans. It is &#
