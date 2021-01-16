@@ -1687,4 +1687,7 @@
                       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                       <SubComponents>
                         <Component class="javax.swing.JTextArea" name="jTextArea7">
-                          <Propertie
+                          <Properties>
+                            <Property name="columns" type="int" value="20"/>
+                            <Property name="rows" type="int" value="5"/>
+                            <Property name="text" type="java.lang.String" value="In cryptography, encryption is the process of encoding a message or information in &#xa;such a way that only authorized parties can access it and those who are not &#xa;authorized cannot. Encryption does not itself prevent interference, but denies the &#xa;intelligible content to a would-be interceptor. In an encryptio
