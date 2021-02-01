@@ -1792,4 +1792,4 @@
                           <Properties>
                             <Property name="columns" type="int" value="20"/>
                             <Property name="rows" type="int" value="5"/>
-                            <Property name="text" type="java.lang.String" value="1. Triple DES&#xa;Triple DES was designed to replace the original Data Encryption Standard (DES) &#x
+                            <Property name="text" type="java.lang.String" value="1. Triple DES&#xa;Triple DES was designed to replace the original Data Encryption Standard (DES) &#xa;algorithm, which hackers eventually learned to defeat with relative ease. &#xa;At one time, Triple DES was the recommended standard and the most widely used &#xa;symmetric algorithm in the industry.&#xa;&#xa;Triple DES uses three individual keys with 56 bits each. The total key length adds &#xa;up to 168 bits, but experts would argue that 112-bits in key strength is more like&#xa; it.&#xa;&#xa;Despite slowly being phased out, Triple DES still manages to make a dependable &#xa;hardware encryption solution for financial services and other industries.
