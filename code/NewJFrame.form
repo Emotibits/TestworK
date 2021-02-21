@@ -1841,4 +1841,6 @@
                       <SubComponents>
                         <Component class="javax.swing.JTextArea" name="jTextArea11">
                           <Properties>
-              
+                            <Property name="columns" type="int" value="20"/>
+                            <Property name="rows" type="int" value="5"/>
+                            <Property name="text" type="java.lang.String" value="The Data Encryption Standard (DES) is a symmetric-key block cipher published&#xa; by the National Institute of Standards and Technology (NIST).&#xa;&#xa;DES is an implementation of a Feistel Cipher. It uses 16 round Feistel &#xa;structure. The block size is 64-bit. Though, key length 
