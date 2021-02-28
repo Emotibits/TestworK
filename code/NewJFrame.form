@@ -1894,4 +1894,11 @@
                           <Properties>
                             <Property name="columns" type="int" value="20"/>
                             <Property name="rows" type="int" value="5"/>
-                            <Property name="text" type="java.lang.String" value="The speed of exhaustive key searches against DES after 1990 began to cause &#xa;discomfort amongst users of DES. However, users did not want to replace DES as it&#xa; takes an enormous amount of time and money to change encryption algorithms that &#xa;are widely adopted and embedded in large security architectures.&#xa;&#xa;The pragmatic approach was not to abandon the DES completely, but to change the &#xa;manner in which DES is used. This led to the modified schemes of Triple DES &#xa;(sometimes known as 3DES).&#xa;&#xa;Incidentally, there are two variants of Triple DES known as 3-key Triple DES &#xa;(3TDE
+                            <Property name="text" type="java.lang.String" value="The speed of exhaustive key searches against DES after 1990 began to cause &#xa;discomfort amongst users of DES. However, users did not want to replace DES as it&#xa; takes an enormous amount of time and money to change encryption algorithms that &#xa;are widely adopted and embedded in large security architectures.&#xa;&#xa;The pragmatic approach was not to abandon the DES completely, but to change the &#xa;manner in which DES is used. This led to the modified schemes of Triple DES &#xa;(sometimes known as 3DES).&#xa;&#xa;Incidentally, there are two variants of Triple DES known as 3-key Triple DES &#xa;(3TDES) and 2-key Triple DES (2TDES).&#xa;&#xa;3-KEY Triple DES&#xa;Before using 3TDES, user first generate and distribute a 3TDES key K, which &#xa;consists of three different DES keys K1, K2 and K3. This means that the actual &#xa;3TDES key has length 3&#xd7;56 = 168 bits."/>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+                <Container class="j
