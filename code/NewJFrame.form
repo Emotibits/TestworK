@@ -1948,4 +1948,19 @@
                             <Property name="text" type="java.lang.String" value="The more popular and widely adopted symmetric encryption algorithm likely to be &#xa;encountered nowadays is the Advanced Encryption Standard (AES). It is found at&#xa; least six time faster than triple DES.&#xa;&#xa;A replacement for DES was needed as its key size was too small. With increasing &#xa;computing power, it was considered vulnerable against exhaustive key search attack.&#xa; Triple DES was designed to overcome this drawback but it was found slow.&#xa;&#xa;The features of AES are as follows &#x2212;&#xa;&#xa;Symmetric key symmetric block cipher&#xa;128-bit data, 128/192/256-bit keys&#xa;Stronger and faster than Triple-DES&#xa;Provide full specification and design details&#xa;Software implementable in C and Java&#xa;Operation of AES&#xa;AES is an iterative rather than Feistel cipher. It is based on &#xa;&#x2018;substitution&#x2013;permutation network&#x2019;. It comprises of a series of linked operations&#xa;, some of which involve replacing inputs by specific outputs (substitutions) &#xa;and others involve shuffling bits around (permutations).&#xa;&#xa;Interestingly, AES performs all its computations on bytes rather than bits. &#xa;Hence, AES treats the 128 bits of a plaintext block as 16 bytes. These 16 bytes &#xa;are arranged in four columns and four rows for processing as a matrix &#x2212;&#xa;&#xa;&#xa;Unlike DES, the number of rounds in AES is variable and depends on the length&#xa; of the key. AES uses 10 rounds for 128-bit keys, 12 rounds for 192-bit keys &#xa;and 14 rounds for 256-bit keys. Each of these rounds uses a different 128-bit&#xa; round key, which is calculated from the original AES key."/>
                           </Properties>
                         </Component>
-                      </Sub
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="SettingsP">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="33" red="33" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint lay
