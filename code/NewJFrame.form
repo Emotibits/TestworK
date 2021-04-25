@@ -2206,4 +2206,14 @@
                   <Color blue="f0" green="f0" red="f0" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Your Information"/>
-              </Proper
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="name">
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="userName">
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="email">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel95">
+              <Properties>
+                <Property name="background" type="java.awt.Color" edit
