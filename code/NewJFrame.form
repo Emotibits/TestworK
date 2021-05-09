@@ -2278,4 +2278,12 @@
                       <Group type="103" groupAlignment="1" attributes="0">
                           <Component id="jLabel52" alignment="1" min="-2" pref="354" max="-2" attributes="0"/>
                           <Component id="jLabel55" min="-2" pref="354" max="-2" attributes="0"/>
-                          <Component id="jLabel56" alignment="1" min="-2" pref
+                          <Component id="jLabel56" alignment="1" min="-2" pref="354" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jLabel92" min="-2" pref="45" max="-2" attributes="0"/>
+                      <EmptySpace pref="66" max="32767" attributes="0"/>
+                      <Component id="jLabel30" min="-2" pref="419" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="190" max="-2
