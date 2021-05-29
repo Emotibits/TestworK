@@ -2397,4 +2397,13 @@
                 <Property name="text" type="java.lang.String" value="Encryption With Triple DES"/>
                 <Property name="toolTipText" type="java.lang.String" value="Three key required"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-                  <Border info="org.netbeans.modules.for
+                  <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                    <BevelBorder/>
+                  </Border>
+                </Property>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
+                <Property name="focusTraversalPolicyProvider" type="boolean" value="true"/>
+                <Property name="opaque" type="boolean" value="true"/>
+    
