@@ -2612,4 +2612,14 @@
                       <Component id="jLabel59" min="-2" pref="40" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
                       <Component id="jLabel58" min="-2" pref="39" max="-2" attributes="0"/>
-                      <EmptySpace pref="56" max="3276
+                      <EmptySpace pref="56" max="32767" attributes="0"/>
+                      <Component id="jLabel60" min="-2" pref="35" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                      <Component id="jLabel62" min="-2" pref="52" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="j
