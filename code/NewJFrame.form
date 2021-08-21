@@ -2869,4 +2869,15 @@
             <Component class="javax.swing.JPasswordField" name="oldPass">
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="oldPassActionPerformed"/>
-    
+              </Events>
+            </Component>
+            <Component class="javax.swing.JPasswordField" name="newPass">
+            </Component>
+            <Component class="javax.swing.JPasswordField" name="cp">
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="h">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="
