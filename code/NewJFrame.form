@@ -2979,4 +2979,14 @@
             <Component class="javax.swing.JLabel" name="jLabel73">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tempus Sans ITC" si
+                  <Font name="Tempus Sans ITC" size="18" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Set Your Profile"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ujh">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor=
