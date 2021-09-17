@@ -3008,4 +3008,15 @@
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="f0" green="f0" red="f0" type="rgb"/>
                 </Property>
-                <Property name="
+                <Property name="text" type="java.lang.String" value="Email Id"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="pUserName">
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="pName">
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="pEmail">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel78">
+              <Properties>
+                <Property nam
