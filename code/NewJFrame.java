@@ -69,4 +69,15 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel21 = new javax.swing.JLabel();
         jLabel22 = new javax.swing.JLabel();
         jLabel23 = new javax.swing.JLabel();
-        jLabel24 = new ja
+        jLabel24 = new javax.swing.JLabel();
+        jLabel25 = new javax.swing.JLabel();
+        jLabel26 = new javax.swing.JLabel();
+        jLabel27 = new javax.swing.JLabel();
+        EncryptionWithDoubleDESP = new javax.swing.JPanel();
+        jLabel86 = new javax.swing.JLabel();
+        jButton4 = new javax.swing.JButton();
+        path2 = new javax.swing.JFormattedTextField();
+        jLabel87 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
+        EncryptionWithTripleDESP = new javax.swing.JPanel();
+        jButton3 = new ja
