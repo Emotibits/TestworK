@@ -91,4 +91,15 @@ public class NewJFrame extends javax.swing.JFrame {
         path = new javax.swing.JFormattedTextField();
         jLabel12 = new javax.swing.JLabel();
         jLabel88 = new javax.swing.JLabel();
-        AboutUsP = new javax.swing.J
+        AboutUsP = new javax.swing.JPanel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTextArea1 = new javax.swing.JTextArea();
+        VarunImage = new javax.swing.JLabel();
+        MyImage = new javax.swing.JLabel();
+        BalkaranImage = new javax.swing.JLabel();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        jTextArea2 = new javax.swing.JTextArea();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        jTextArea3 = new javax.swing.JTextArea();
+        jScrollPane4 = new javax.swing.JScrollPane();
+   
