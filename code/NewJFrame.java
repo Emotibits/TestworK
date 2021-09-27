@@ -80,4 +80,15 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel87 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
         EncryptionWithTripleDESP = new javax.swing.JPanel();
-        jButton3 = new ja
+        jButton3 = new javax.swing.JButton();
+        path1 = new javax.swing.JFormattedTextField();
+        jLabel49 = new javax.swing.JLabel();
+        jLabel84 = new javax.swing.JLabel();
+        jLabel89 = new javax.swing.JLabel();
+        EncryptionWithDESP = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
+        jButton2 = new javax.swing.JButton();
+        path = new javax.swing.JFormattedTextField();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel88 = new javax.swing.JLabel();
+        AboutUsP = new javax.swing.J
