@@ -157,4 +157,15 @@ public class NewJFrame extends javax.swing.JFrame {
         SettingsP = new javax.swing.JPanel();
         jLabel32 = new javax.swing.JLabel();
         jLabel28 = new javax.swing.JLabel();
-      
+        jLabel33 = new javax.swing.JLabel();
+        jLabel34 = new javax.swing.JLabel();
+        jLabel35 = new javax.swing.JLabel();
+        AnalyticsP = new javax.swing.JPanel();
+        jLabel29 = new javax.swing.JLabel();
+        jLabel31 = new javax.swing.JLabel();
+        jLabel91 = new javax.swing.JLabel();
+        jLabel94 = new javax.swing.JLabel();
+        name = new javax.swing.JFormattedTextField();
+        userName = new javax.swing.JFormattedTextField();
+        email = new javax.swing.JFormattedTextField();
+       
