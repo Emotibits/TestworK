@@ -135,4 +135,14 @@ public class NewJFrame extends javax.swing.JFrame {
         jScrollPane6 = new javax.swing.JScrollPane();
         jTextArea6 = new javax.swing.JTextArea();
         AboutEncryptionP = new javax.swing.JPanel();
-        jLabel48 = new
+        jLabel48 = new javax.swing.JLabel();
+        jLabel83 = new javax.swing.JLabel();
+        jScrollPane7 = new javax.swing.JScrollPane();
+        jTextArea7 = new javax.swing.JTextArea();
+        AboutDecryptionP = new javax.swing.JPanel();
+        jScrollPane9 = new javax.swing.JScrollPane();
+        jTextArea9 = new javax.swing.JTextArea();
+        AboutAlgorithmsP = new javax.swing.JPanel();
+        jScrollPane10 = new javax.swing.JScrollPane();
+        jTextArea10 = new javax.swing.JTextArea();
+        DESP = new javax.swing.JPanel();
