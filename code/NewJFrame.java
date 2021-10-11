@@ -180,4 +180,16 @@ public class NewJFrame extends javax.swing.JFrame {
         pathD = new javax.swing.JFormattedTextField();
         jLabel90 = new javax.swing.JLabel();
         jLabel74 = new javax.swing.JLabel();
-   
+        jLabel93 = new javax.swing.JLabel();
+        jButton5 = new javax.swing.JButton();
+        ResetAccountP = new javax.swing.JPanel();
+        jLabel58 = new javax.swing.JLabel();
+        jLabel59 = new javax.swing.JLabel();
+        jLabel60 = new javax.swing.JLabel();
+        jLabel61 = new javax.swing.JLabel();
+        jLabel62 = new javax.swing.JLabel();
+        confirmPass = new javax.swing.JPanel();
+        jLabel63 = new javax.swing.JLabel();
+        jLabel64 = new javax.swing.JLabel();
+        jLabel65 = new javax.swing.JLabel();
+        
