@@ -168,4 +168,16 @@ public class NewJFrame extends javax.swing.JFrame {
         name = new javax.swing.JFormattedTextField();
         userName = new javax.swing.JFormattedTextField();
         email = new javax.swing.JFormattedTextField();
-       
+        jLabel95 = new javax.swing.JLabel();
+        jLabel96 = new javax.swing.JLabel();
+        EncryptionP = new javax.swing.JPanel();
+        jLabel30 = new javax.swing.JLabel();
+        jLabel52 = new javax.swing.JLabel();
+        jLabel55 = new javax.swing.JLabel();
+        jLabel56 = new javax.swing.JLabel();
+        jLabel92 = new javax.swing.JLabel();
+        DecryptionP = new javax.swing.JPanel();
+        pathD = new javax.swing.JFormattedTextField();
+        jLabel90 = new javax.swing.JLabel();
+        jLabel74 = new javax.swing.JLabel();
+   
