@@ -192,4 +192,16 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel63 = new javax.swing.JLabel();
         jLabel64 = new javax.swing.JLabel();
         jLabel65 = new javax.swing.JLabel();
-        
+        jLabel66 = new javax.swing.JLabel();
+        jLabel67 = new javax.swing.JLabel();
+        jLabel68 = new javax.swing.JLabel();
+        jLabel69 = new javax.swing.JLabel();
+        oldPass = new javax.swing.JPasswordField();
+        newPass = new javax.swing.JPasswordField();
+        cp = new javax.swing.JPasswordField();
+        h = new javax.swing.JPanel();
+        jLabel72 = new javax.swing.JLabel();
+        jLabel73 = new javax.swing.JLabel();
+        ujh = new javax.swing.JLabel();
+        jk = new javax.swing.JLabel();
+        fjk = new javax.swing.JLabel
