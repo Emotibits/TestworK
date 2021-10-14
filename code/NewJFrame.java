@@ -204,4 +204,17 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel73 = new javax.swing.JLabel();
         ujh = new javax.swing.JLabel();
         jk = new javax.swing.JLabel();
-        fjk = new javax.swing.JLabel
+        fjk = new javax.swing.JLabel();
+        pUserName = new javax.swing.JFormattedTextField();
+        pName = new javax.swing.JFormattedTextField();
+        pEmail = new javax.swing.JFormattedTextField();
+        jLabel78 = new javax.swing.JLabel();
+        jLabel79 = new javax.swing.JLabel();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(51, 51, 51));
+
+        jPanel1.setBackground(new java.awt.Color(255, 153, 0));
+
+        HomeL.setText("Home");
+        HomeL.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CU
