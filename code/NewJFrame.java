@@ -217,4 +217,20 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(255, 153, 0));
 
         HomeL.setText("Home");
-        HomeL.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CU
+        HomeL.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        HomeL.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                HomeLMouseClicked(evt);
+            }
+        });
+
+        AboutUsL.setText("AboutUs");
+        AboutUsL.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        AboutUsL.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                AboutUsLMouseClicked(evt);
+            }
+        });
+
+        ContactUsL.setText("ContactUs");
+   
