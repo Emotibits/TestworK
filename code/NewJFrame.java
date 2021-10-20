@@ -233,4 +233,14 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         ContactUsL.setText("ContactUs");
-   
+        ContactUsL.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        ContactUsL.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                ContactUsLMouseClicked(evt);
+            }
+        });
+
+        LearnApp.setText("Learn App");
+        LearnApp.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        LearnApp.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseE
