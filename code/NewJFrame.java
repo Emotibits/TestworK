@@ -243,4 +243,16 @@ public class NewJFrame extends javax.swing.JFrame {
         LearnApp.setText("Learn App");
         LearnApp.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         LearnApp.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseE
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                LearnAppMouseClicked(evt);
+            }
+        });
+
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\user\\Desktop\\images\\download.png")); // NOI18N
+
+        jLabel9.setBackground(new java.awt.Color(255, 51, 51));
+        jLabel9.setText("Logout");
+        jLabel9.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel9.setOpaque(true);
+        jLabel9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.Mo
