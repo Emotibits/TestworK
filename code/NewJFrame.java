@@ -291,4 +291,18 @@ public class NewJFrame extends javax.swing.JFrame {
                         .addComponent(AboutUsL)
                         .addComponent(ContactUsL)
                         .addComponent(LearnApp)))
-                .addGap(0, 0, Sho
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+
+        jPanel2.setPreferredSize(new java.awt.Dimension(721, 472));
+        jPanel2.setLayout(new java.awt.CardLayout());
+
+        HomeP.setBackground(new java.awt.Color(51, 51, 51));
+        HomeP.setMaximumSize(new java.awt.Dimension(721, 472));
+        HomeP.setPreferredSize(new java.awt.Dimension(721, 472));
+
+        jLabel3.setFont(new java.awt.Font("Papyrus", 1, 24)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3.setText("Welcome To Security-Z");
+
+        jLabel16.setForeground(new java.awt
