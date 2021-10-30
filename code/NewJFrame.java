@@ -305,4 +305,13 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Welcome To Security-Z");
 
-        jLabel16.setForeground(new java.awt
+        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/securityz/Images/encryption.PNG"))); // NOI18N
+        jLabel16.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel16.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel16MouseClicked(evt);
+            }
+        });
+
+        jLabel17.setForeground(new java.awt.Color(255, 255, 255))
