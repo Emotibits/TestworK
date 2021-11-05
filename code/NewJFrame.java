@@ -333,4 +333,14 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jLabel19.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/securityz/Images/Book.PNG"))
+        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/securityz/Images/Book.PNG"))); // NOI18N
+        jLabel19.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel19.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel19MouseClicked(evt);
+            }
+        });
+
+        jLabel20.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/securityz/Images/analytics.PNG"))); // NOI18N
+        jLabel20.setCursor(new
