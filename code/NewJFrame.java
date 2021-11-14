@@ -399,4 +399,15 @@ public class NewJFrame extends javax.swing.JFrame {
             }
         });
 
-        jLabel26.setForeground(new 
+        jLabel26.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel26.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel26.setText("Profile");
+        jLabel26.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel26.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel26MouseClicked(evt);
+            }
+        });
+
+        jLabel27.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel27.
