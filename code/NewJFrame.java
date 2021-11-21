@@ -410,4 +410,15 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jLabel27.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel27.
+        jLabel27.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel27.setText("Contact Us");
+        jLabel27.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel27.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel27MouseClicked(evt);
+            }
+        });
+
+        javax.swing.GroupLayout HomePLayout = new javax.swing.GroupLayout(HomeP);
+        HomeP.setLayout(HomePLayout);
+        HomePLayout.se
