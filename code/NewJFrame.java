@@ -421,4 +421,10 @@ public class NewJFrame extends javax.swing.JFrame {
 
         javax.swing.GroupLayout HomePLayout = new javax.swing.GroupLayout(HomeP);
         HomeP.setLayout(HomePLayout);
-        HomePLayout.se
+        HomePLayout.setHorizontalGroup(
+            HomePLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HomePLayout.createSequentialGroup()
+                .addGap(57, 57, 57)
+                .addGroup(HomePLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(HomePLayout.createSequentialGroup()
+                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 312, javax.swing.GroupLayout.PREFERRED_
