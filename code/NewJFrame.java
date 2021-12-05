@@ -481,4 +481,15 @@ public class NewJFrame extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jLabel26))
                     .addGroup(HomePLayout.createSequentialGroup()
-                        .addComponent(jLabel2
+                        .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel27)))
+                .addContainerGap(120, Short.MAX_VALUE))
+        );
+
+        jPanel2.add(HomeP, "card5");
+
+        EncryptionWithDoubleDESP.setBackground(new java.awt.Color(51, 51, 51));
+
+        jLabel86.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel86.setForeground(new java.awt.Color(24
