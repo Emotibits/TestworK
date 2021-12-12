@@ -505,4 +505,16 @@ public class NewJFrame extends javax.swing.JFrame {
 
         path2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
-        jLabel87.setBackground(new java.awt
+        jLabel87.setBackground(new java.awt.Color(51, 51, 255));
+        jLabel87.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel87.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel87.setText("Encrypt File ");
+        jLabel87.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel87.setOpaque(true);
+        jLabel87.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel87MouseClicked(evt);
+            }
+        });
+
+        jLabel13.setBackground(new java.awt.Color(255, 204, 0)
