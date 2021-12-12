@@ -492,4 +492,17 @@ public class NewJFrame extends javax.swing.JFrame {
         EncryptionWithDoubleDESP.setBackground(new java.awt.Color(51, 51, 51));
 
         jLabel86.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jLabel86.setForeground(new java.awt.Color(24
+        jLabel86.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel86.setText("Encryption with Double DES");
+
+        jButton4.setBackground(new java.awt.Color(0, 204, 204));
+        jButton4.setText("Enter Folder adress");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
+
+        path2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        jLabel87.setBackground(new java.awt
