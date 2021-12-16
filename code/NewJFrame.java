@@ -517,4 +517,15 @@ public class NewJFrame extends javax.swing.JFrame {
             }
         });
 
-        jLabel13.setBackground(new java.awt.Color(255, 204, 0)
+        jLabel13.setBackground(new java.awt.Color(255, 204, 0));
+        jLabel13.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel13.setText("<Back");
+        jLabel13.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel13.setOpaque(true);
+        jLabel13.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel13MouseClicked(evt);
+            }
+        });
+
+        javax.swing.GroupLayout EncryptionWithDoubleDESPLayout = new javax.swing.GroupLayout(EncryptionWithD
