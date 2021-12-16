@@ -528,4 +528,11 @@ public class NewJFrame extends javax.swing.JFrame {
             }
         });
 
-        javax.swing.GroupLayout EncryptionWithDoubleDESPLayout = new javax.swing.GroupLayout(EncryptionWithD
+        javax.swing.GroupLayout EncryptionWithDoubleDESPLayout = new javax.swing.GroupLayout(EncryptionWithDoubleDESP);
+        EncryptionWithDoubleDESP.setLayout(EncryptionWithDoubleDESPLayout);
+        EncryptionWithDoubleDESPLayout.setHorizontalGroup(
+            EncryptionWithDoubleDESPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(EncryptionWithDoubleDESPLayout.createSequentialGroup()
+                .addGroup(EncryptionWithDoubleDESPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(EncryptionWithDoubleDESPLayout.createSequentialGroup()
+         
