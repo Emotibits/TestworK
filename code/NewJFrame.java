@@ -559,4 +559,15 @@ public class NewJFrame extends javax.swing.JFrame {
                     .addComponent(path2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(82, 82, 82)
-                .addCompo
+                .addComponent(jLabel87, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(152, Short.MAX_VALUE))
+        );
+
+        jPanel2.add(EncryptionWithDoubleDESP, "card15");
+
+        EncryptionWithTripleDESP.setBackground(new java.awt.Color(51, 51, 51));
+
+        jButton3.setBackground(new java.awt.Color(0, 204, 204));
+        jButton3.setText("Click Here To Choose File");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void ac
