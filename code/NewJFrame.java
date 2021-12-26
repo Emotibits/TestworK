@@ -570,4 +570,15 @@ public class NewJFrame extends javax.swing.JFrame {
         jButton3.setBackground(new java.awt.Color(0, 204, 204));
         jButton3.setText("Click Here To Choose File");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
-            public void ac
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+
+        path1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        jLabel49.setBackground(new java.awt.Color(51, 51, 255));
+        jLabel49.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel49.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel49.setText("Encrypt File ");
+        jLabel49.setCursor(new java.awt.Cursor(java.awt.Cursor.HAN
