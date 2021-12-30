@@ -581,4 +581,17 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel49.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel49.setForeground(new java.awt.Color(240, 240, 240));
         jLabel49.setText("Encrypt File ");
-        jLabel49.setCursor(new java.awt.Cursor(java.awt.Cursor.HAN
+        jLabel49.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel49.setOpaque(true);
+        jLabel49.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel49MouseClicked(evt);
+            }
+        });
+
+        jLabel84.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel84.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel84.setText("Encryption with Triple DES");
+
+        jLabel89.setBackground(new java.awt.Color(255, 204, 0));
+        jLabel89.setForeground(new java.awt.Color(24
