@@ -594,4 +594,15 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel84.setText("Encryption with Triple DES");
 
         jLabel89.setBackground(new java.awt.Color(255, 204, 0));
-        jLabel89.setForeground(new java.awt.Color(24
+        jLabel89.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel89.setText("<Back");
+        jLabel89.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel89.setOpaque(true);
+        jLabel89.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel89MouseClicked(evt);
+            }
+        });
+
+        javax.swing.GroupLayout EncryptionWithTripleDESPLayout = new javax.swing.GroupLayout(EncryptionWithTripleDESP);
+        EncryptionWithTripleDESP.setLayout(EncryptionWithTripl
