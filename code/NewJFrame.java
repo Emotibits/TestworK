@@ -626,4 +626,9 @@ public class NewJFrame extends javax.swing.JFrame {
         );
         EncryptionWithTripleDESPLayout.setVerticalGroup(
             EncryptionWithTripleDESPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-           
+            .addGroup(EncryptionWithTripleDESPLayout.createSequentialGroup()
+                .addGroup(EncryptionWithTripleDESPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(EncryptionWithTripleDESPLayout.createSequentialGroup()
+                        .addGap(27, 27, 27)
+                        .addComponent(jLabel84, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabel89, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLa
