@@ -638,4 +638,18 @@ public class NewJFrame extends javax.swing.JFrame {
                     .addComponent(jButton3, javax.swing.GroupLayout.DEFAULT_SIZE, 40, Short.MAX_VALUE))
                 .addGap(54, 54, 54)
                 .addComponent(jLabel49, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(180, Short.MA
+                .addContainerGap(180, Short.MAX_VALUE))
+        );
+
+        jPanel2.add(EncryptionWithTripleDESP, "card16");
+
+        EncryptionWithDESP.setBackground(new java.awt.Color(51, 51, 51));
+
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel1.setText("Encryption with DES");
+
+        jButton2.setBackground(new java.awt.Color(0, 204, 204));
+        jButton2.setText("Enter Path here ");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            publ
