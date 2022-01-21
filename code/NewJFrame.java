@@ -652,4 +652,15 @@ public class NewJFrame extends javax.swing.JFrame {
         jButton2.setBackground(new java.awt.Color(0, 204, 204));
         jButton2.setText("Enter Path here ");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
-            publ
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+
+        path.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        jLabel12.setBackground(new java.awt.Color(51, 51, 255));
+        jLabel12.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel12.setText("Encrypt File ");
+        jLabel12.setCursor(new java.awt.C
