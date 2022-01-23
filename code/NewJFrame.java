@@ -663,4 +663,16 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel12.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(240, 240, 240));
         jLabel12.setText("Encrypt File ");
-        jLabel12.setCursor(new java.awt.C
+        jLabel12.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel12.setOpaque(true);
+        jLabel12.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel12MouseClicked(evt);
+            }
+        });
+
+        jLabel88.setBackground(new java.awt.Color(255, 204, 0));
+        jLabel88.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel88.setText("<Back");
+        jLabel88.setOpaque(true);
+        jLabel88.addMo
