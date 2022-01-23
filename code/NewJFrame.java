@@ -675,4 +675,15 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel88.setForeground(new java.awt.Color(240, 240, 240));
         jLabel88.setText("<Back");
         jLabel88.setOpaque(true);
-        jLabel88.addMo
+        jLabel88.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel88MouseClicked(evt);
+            }
+        });
+
+        javax.swing.GroupLayout EncryptionWithDESPLayout = new javax.swing.GroupLayout(EncryptionWithDESP);
+        EncryptionWithDESP.setLayout(EncryptionWithDESPLayout);
+        EncryptionWithDESPLayout.setHorizontalGroup(
+            EncryptionWithDESPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(EncryptionWithDESPLayout.createSequentialGroup()
+            
