@@ -698,4 +698,10 @@ public class NewJFrame extends javax.swing.JFrame {
                         .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 275, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(EncryptionWithDESPLayout.createSequentialGroup()
                         .addGap(220, 220, 220)
-                    
+                        .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 257, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(66, Short.MAX_VALUE))
+        );
+        EncryptionWithDESPLayout.setVerticalGroup(
+            EncryptionWithDESPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(EncryptionWithDESPLayout.createSequentialGroup()
+                .addGroup(EncryptionWithDESPLayout.createParallelGroup(javax.swing.GroupLayout.Align
