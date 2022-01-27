@@ -691,4 +691,11 @@ public class NewJFrame extends javax.swing.JFrame {
                         .addGap(98, 98, 98)
                         .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 178, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(55, 55, 55)
-                        .addComponent(path, javax.swing.GroupLayout.PREFERRED_SIZE, 323, javax.swing.Gro
+                        .addComponent(path, javax.swing.GroupLayout.PREFERRED_SIZE, 323, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(EncryptionWithDESPLayout.createSequentialGroup()
+                        .addComponent(jLabel88, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(66, 66, 66)
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 275, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(EncryptionWithDESPLayout.createSequentialGroup()
+                        .addGap(220, 220, 220)
+                    
