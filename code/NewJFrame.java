@@ -712,4 +712,17 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addGap(72, 72, 72)
                 .addGroup(EncryptionWithDESPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(path)
-                    .addComponent(jButton2, javax.swing.GroupLayout.DEF
+                    .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, 40, Short.MAX_VALUE))
+                .addGap(59, 59, 59)
+                .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(175, Short.MAX_VALUE))
+        );
+
+        jPanel2.add(EncryptionWithDESP, "card14");
+
+        AboutUsP.setBackground(new java.awt.Color(51, 51, 51));
+
+        jTextArea1.setEditable(false);
+        jTextArea1.setBackground(new java.awt.Color(51, 51, 51));
+        jTextArea1.setColumns(20);
+        jTextArea1.setForeground(new java.awt.Color(
