@@ -731,4 +731,13 @@ public class NewJFrame extends javax.swing.JFrame {
         jScrollPane1.setViewportView(jTextArea1);
 
         VarunImage.setBackground(new java.awt.Color(255, 0, 255));
-        VarunImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/securityz/Images/IMG20190628120626.jpg"))); 
+        VarunImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/securityz/Images/IMG20190628120626.jpg"))); // NOI18N
+
+        MyImage.setBackground(new java.awt.Color(255, 51, 255));
+        MyImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/securityz/Images/IMG20190622134417.jpg"))); // NOI18N
+
+        BalkaranImage.setBackground(new java.awt.Color(204, 0, 255));
+        BalkaranImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/securityz/Images/59744702_1133281180197965_3973984040414871552_n.jpg"))); // NOI18N
+
+        jTextArea2.setEditable(false);
+        jTextArea2.setBackground(new java.awt.C
