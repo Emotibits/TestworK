@@ -725,4 +725,10 @@ public class NewJFrame extends javax.swing.JFrame {
         jTextArea1.setEditable(false);
         jTextArea1.setBackground(new java.awt.Color(51, 51, 51));
         jTextArea1.setColumns(20);
-        jTextArea1.setForeground(new java.awt.Color(
+        jTextArea1.setForeground(new java.awt.Color(255, 255, 255));
+        jTextArea1.setRows(5);
+        jTextArea1.setText("We are Three Friends Persuing Bca Last Year ,\nAnd Make this Project for our Final year project Submission.\n\nA big Thanks To all Our respected Teachers who Gave the Idea to Make this Project\n And also Help Us for this Project.");
+        jScrollPane1.setViewportView(jTextArea1);
+
+        VarunImage.setBackground(new java.awt.Color(255, 0, 255));
+        VarunImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/securityz/Images/IMG20190628120626.jpg"))); 
