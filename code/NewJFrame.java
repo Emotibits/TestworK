@@ -740,4 +740,16 @@ public class NewJFrame extends javax.swing.JFrame {
         BalkaranImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/securityz/Images/59744702_1133281180197965_3973984040414871552_n.jpg"))); // NOI18N
 
         jTextArea2.setEditable(false);
-        jTextArea2.setBackground(new java.awt.C
+        jTextArea2.setBackground(new java.awt.Color(51, 51, 51));
+        jTextArea2.setColumns(20);
+        jTextArea2.setForeground(new java.awt.Color(255, 255, 255));
+        jTextArea2.setLineWrap(true);
+        jTextArea2.setRows(3);
+        jTextArea2.setTabSize(7);
+        jTextArea2.setText("Blakaran Pal\nFront-end Programmer,\nData Collector");
+        jTextArea2.setAutoscrolls(false);
+        jTextArea2.setRequestFocusEnabled(false);
+        jScrollPane2.setViewportView(jTextArea2);
+
+        jTextArea3.setEditable(false);
+        jTe
