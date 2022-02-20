@@ -752,4 +752,16 @@ public class NewJFrame extends javax.swing.JFrame {
         jScrollPane2.setViewportView(jTextArea2);
 
         jTextArea3.setEditable(false);
-        jTe
+        jTextArea3.setBackground(new java.awt.Color(51, 51, 51));
+        jTextArea3.setColumns(20);
+        jTextArea3.setForeground(new java.awt.Color(255, 255, 255));
+        jTextArea3.setLineWrap(true);
+        jTextArea3.setRows(3);
+        jTextArea3.setTabSize(7);
+        jTextArea3.setText("Varun Sharma\nBack-end Programmer,\nData-Collector");
+        jTextArea3.setAutoscrolls(false);
+        jTextArea3.setRequestFocusEnabled(false);
+        jScrollPane3.setViewportView(jTextArea3);
+
+        jTextArea4.setEditable(false);
+        jTextArea4.setBac
