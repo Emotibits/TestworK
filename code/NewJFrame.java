@@ -775,4 +775,11 @@ public class NewJFrame extends javax.swing.JFrame {
         jTextArea4.setRequestFocusEnabled(false);
         jScrollPane4.setViewportView(jTextArea4);
 
-        javax.swing.GroupLayout AboutUs
+        javax.swing.GroupLayout AboutUsPLayout = new javax.swing.GroupLayout(AboutUsP);
+        AboutUsP.setLayout(AboutUsPLayout);
+        AboutUsPLayout.setHorizontalGroup(
+            AboutUsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(AboutUsPLayout.createSequentialGroup()
+                .addGap(39, 39, 39)
+                .addGroup(AboutUsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 201, javax.swing.GroupLayout.PREFERRED_SI
