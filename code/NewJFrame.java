@@ -790,4 +790,11 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addGroup(AboutUsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(AboutUsPLayout.createSequentialGroup()
                         .addComponent(VarunImage)
-  
+                        .addGap(78, 78, 78)
+                        .addComponent(MyImage))
+                    .addGroup(AboutUsPLayout.createSequentialGroup()
+                        .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 210, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(45, 45, 45)
+                        .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 246, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(128, 128, 128))
+            .addGroup(Abou
