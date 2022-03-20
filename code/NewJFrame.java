@@ -819,4 +819,14 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addGap(37, 37, 37))
         );
 
-        jPanel2.add(AboutUs
+        jPanel2.add(AboutUsP, "card5");
+
+        ContactUsP.setBackground(new java.awt.Color(51, 51, 51));
+        ContactUsP.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, new java.awt.Color(0, 0, 0), null, null));
+        ContactUsP.setForeground(new java.awt.Color(51, 51, 51));
+
+        jTextArea5.setEditable(false);
+        jTextArea5.setBackground(new java.awt.Color(51, 51, 51));
+        jTextArea5.setColumns(20);
+        jTextArea5.setForeground(new java.awt.Color(255, 255, 255));
+        jTextArea5.setRows(5)
