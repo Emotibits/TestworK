@@ -850,4 +850,14 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel7.setIconTextGap(5);
 
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel8.setH
+        jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel8.setText("Instagram -  https://www.instagram.com/lakshaysudan/");
+        jLabel8.setIconTextGap(5);
+
+        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel10.setText("(+91) 9917976768");
+
+        javax.swing.GroupLayout ContactUsPLayout = new javax.swing.GroupLayout(ContactUsP);
+        ContactUsP.setLayout(ContactUsPLayout);
+        ContactUsPLayout.setHorizontalGroup(
+            ContactUsPLayout.createParallelGroup(javax.swing.GroupLayout.Align
