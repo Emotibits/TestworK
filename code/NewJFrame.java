@@ -829,4 +829,15 @@ public class NewJFrame extends javax.swing.JFrame {
         jTextArea5.setBackground(new java.awt.Color(51, 51, 51));
         jTextArea5.setColumns(20);
         jTextArea5.setForeground(new java.awt.Color(255, 255, 255));
-        jTextArea5.setRows(5)
+        jTextArea5.setRows(5);
+        jTextArea5.setTabSize(5);
+        jTextArea5.setText("Contact Us If You want Support To/By Us for This Types of Services.\nThankyou And You can Contact Us By Following Informations.");
+        jScrollPane5.setViewportView(jTextArea5);
+
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel4.setText("Mobile No-   (+91) 9193334430");
+        jLabel4.setIconTextGap(5);
+
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setHorizontalA
