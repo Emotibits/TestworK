@@ -840,4 +840,14 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel4.setIconTextGap(5);
 
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel5.setHorizontalA
+        jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel5.setText("WhatsApp-  (+91) 7668068987");
+        jLabel5.setIconTextGap(5);
+
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel7.setText("FaceBook -  https://www.facebook.com/profile.php?id=100028783660685");
+        jLabel7.setIconTextGap(5);
+
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel8.setH
