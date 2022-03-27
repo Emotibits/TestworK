@@ -874,4 +874,8 @@ public class NewJFrame extends javax.swing.JFrame {
                             .addGroup(ContactUsPLayout.createSequentialGroup()
                                 .addContainerGap()
                                 .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    
+                        .addGroup(ContactUsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(ContactUsPLayout.createSequentialGroup()
+                                .addGap(22, 22, 22)
+                                .addGroup(ContactUsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 372, javax.swing.GroupLayout.PREFERRED_SIZ
