@@ -914,3 +914,14 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel2.add(ContactUsP, "card2");
 
         jPanel3.setBackground(new java.awt.Color(255, 153, 0));
+
+        jLabel6.setBackground(new java.awt.Color(0, 102, 255));
+        jLabel6.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel6.setText("Index");
+        jLabel6.setOpaque(true);
+
+        jLabel37.setFont(new java.awt.Font("Lucida Console", 0, 14)); // NOI18N
+        jLabel37.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel37.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel37.addMous
