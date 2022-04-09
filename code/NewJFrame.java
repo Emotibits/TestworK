@@ -970,4 +970,15 @@ public class NewJFrame extends javax.swing.JFrame {
             }
         });
 
-        jLabel42.s
+        jLabel42.setFont(new java.awt.Font("Lucida Console", 0, 14)); // NOI18N
+        jLabel42.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel42.setText("DES");
+        jLabel42.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel42.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel42MouseClicked(evt);
+            }
+        });
+
+        jLabel43.setFont(new java.awt.Font("Lucida Console", 0, 14)); // NOI18N
+        jLabel43.setForeground(new java.awt.Color(255, 255, 255));
