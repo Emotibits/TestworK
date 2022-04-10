@@ -982,3 +982,14 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jLabel43.setFont(new java.awt.Font("Lucida Console", 0, 14)); // NOI18N
         jLabel43.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel43.setText("Triple DES");
+        jLabel43.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel43.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel43MouseClicked(evt);
+            }
+        });
+
+        jLabel44.setFont(new java.awt.Font("Lucida Console", 0, 14)); // NOI18N
+        jLabel44.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel44.setText("AES")
