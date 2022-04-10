@@ -992,4 +992,15 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jLabel44.setFont(new java.awt.Font("Lucida Console", 0, 14)); // NOI18N
         jLabel44.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel44.setText("AES")
+        jLabel44.setText("AES");
+        jLabel44.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel44.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel44MouseClicked(evt);
+            }
+        });
+
+        jLabel11.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel11.setText("<Back");
+        jLabel11.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent e
