@@ -1024,4 +1024,14 @@ public class NewJFrame extends javax.swing.JFrame {
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addGap(1, 1, 1)
                         .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                           
+                            .addComponent(jLabel41)
+                            .addComponent(jLabel42)))
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addComponent(jLabel37)
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabel38))
+                .addGap(0, 19, Short.MAX_VALUE))
+        );
+        jPanel3Layout.setVerticalGroup(
+ 
