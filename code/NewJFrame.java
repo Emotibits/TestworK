@@ -1054,4 +1054,17 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addComponent(jLabel41)
                 .addGap(33, 33, 33)
                 .addComponent(jLabel42)
-                .
+                .addGap(26, 26, 26)
+                .addComponent(jLabel43)
+                .addGap(29, 29, 29)
+                .addComponent(jLabel44)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jPanel4.setLayout(new java.awt.CardLayout());
+
+        AboutAppP1.setBackground(new java.awt.Color(51, 51, 51));
+
+        jTextArea8.setColumns(20);
+        jTextArea8.setRows(5);
+        jTextArea8.setText("We are Three Friends Persuing Bca Last Year ,\nAnd Make this Project for our Final year pr
