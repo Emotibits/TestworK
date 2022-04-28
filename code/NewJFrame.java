@@ -1067,4 +1067,11 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jTextArea8.setColumns(20);
         jTextArea8.setRows(5);
-        jTextArea8.setText("We are Three Friends Persuing Bca Last Year ,\nAnd Make this Project for our Final year pr
+        jTextArea8.setText("We are Three Friends Persuing Bca Last Year ,\nAnd Make this Project for our Final year project Submission.\n\nA big Thanks To all Our respected Teachers who Gave the Idea to Make this\n Project\n And also Help Us for this Project.");
+        jScrollPane8.setViewportView(jTextArea8);
+
+        javax.swing.GroupLayout AboutAppP1Layout = new javax.swing.GroupLayout(AboutAppP1);
+        AboutAppP1.setLayout(AboutAppP1Layout);
+        AboutAppP1Layout.setHorizontalGroup(
+            AboutAppP1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(AboutAppP1Layout.createSequentialGroup
