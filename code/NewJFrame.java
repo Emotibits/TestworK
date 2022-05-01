@@ -1083,4 +1083,15 @@ public class NewJFrame extends javax.swing.JFrame {
             AboutAppP1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(AboutAppP1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPan
+                .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 378, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(41, Short.MAX_VALUE))
+        );
+
+        jPanel4.add(AboutAppP1, "card3");
+
+        CryptographyP.setBackground(new java.awt.Color(51, 51, 51));
+        CryptographyP.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel47.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel47.setText("<Previous");
+        jLabel47.addMouseListener(new java
