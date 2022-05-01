@@ -1094,4 +1094,18 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jLabel47.setForeground(new java.awt.Color(255, 255, 255));
         jLabel47.setText("<Previous");
-        jLabel47.addMouseListener(new java
+        jLabel47.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel47MouseClicked(evt);
+            }
+        });
+        CryptographyP.add(jLabel47, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 410, -1, 20));
+
+        jLabel57.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel57.setText("Next>");
+        jLabel57.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel57MouseClicked(evt);
+            }
+        });
+      
