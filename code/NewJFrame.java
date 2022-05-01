@@ -1074,4 +1074,13 @@ public class NewJFrame extends javax.swing.JFrame {
         AboutAppP1.setLayout(AboutAppP1Layout);
         AboutAppP1Layout.setHorizontalGroup(
             AboutAppP1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(AboutAppP1Layout.createSequentialGroup
+            .addGroup(AboutAppP1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 618, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(62, Short.MAX_VALUE))
+        );
+        AboutAppP1Layout.setVerticalGroup(
+            AboutAppP1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(AboutAppP1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPan
