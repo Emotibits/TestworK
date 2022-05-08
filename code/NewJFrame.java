@@ -1108,4 +1108,8 @@ public class NewJFrame extends javax.swing.JFrame {
                 jLabel57MouseClicked(evt);
             }
         });
-      
+        CryptographyP.add(jLabel57, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 410, -1, 20));
+
+        jTextArea6.setColumns(20);
+        jTextArea6.setRows(5);
+        jTextArea6.setText("Cryptography — the science of secret writing — is an ancient art; \nthe first documented use of cryptography in writing dates back to circa 1900 B.C. \nwhen an Egyptian scribe used non-standard hieroglyphs in an inscription. Some experts\n argue that cryptography appeared spontaneously sometime after writing was invented,\n wi
