@@ -1117,4 +1117,16 @@ public class NewJFrame extends javax.swing.JFrame {
 
         CryptographyP.add(jScrollPane6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 690, 410));
 
-      
+        jPanel4.add(CryptographyP, "card5");
+
+        AboutEncryptionP.setBackground(new java.awt.Color(51, 51, 51));
+
+        jLabel48.setForeground(java.awt.Color.white);
+        jLabel48.setText("<Previous");
+
+        jLabel83.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel83.setText("Next>");
+
+        jTextArea7.setColumns(20);
+        jTextArea7.setRows(5);
+        jTextArea7.setText("In cryptography, encryption is the process of encoding a message or information in \nsuch a way that only authorized parties can access
