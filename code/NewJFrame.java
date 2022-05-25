@@ -1147,4 +1147,12 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addContainerGap())
         );
         AboutEncryptionPLayout.setVerticalGroup(
-            AboutEncryptionPLayout.createParallelGroup(javax.swing.Grou
+            AboutEncryptionPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(AboutEncryptionPLayout.createSequentialGroup()
+                .addComponent(jScrollPane7, javax.swing.GroupLayout.DEFAULT_SIZE, 399, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(AboutEncryptionPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel83)
+                    .addComponent(jLabel48))
+                .addContainerGap())
+    
