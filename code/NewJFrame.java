@@ -1155,4 +1155,15 @@ public class NewJFrame extends javax.swing.JFrame {
                     .addComponent(jLabel83)
                     .addComponent(jLabel48))
                 .addContainerGap())
-    
+        );
+
+        jPanel4.add(AboutEncryptionP, "card6");
+
+        AboutDecryptionP.setBackground(new java.awt.Color(51, 51, 51));
+
+        jTextArea9.setColumns(20);
+        jTextArea9.setRows(5);
+        jTextArea9.setText("Decryption is generally the reverse process of encryption. It is the process of \ndecoding the data which has been encrypted into a secret format.\n\n An authorized user can only decrypt data because decryption requires a secret\n key or password.");
+        jScrollPane9.setViewportView(jTextArea9);
+
+        javax
