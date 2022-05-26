@@ -1166,4 +1166,10 @@ public class NewJFrame extends javax.swing.JFrame {
         jTextArea9.setText("Decryption is generally the reverse process of encryption. It is the process of \ndecoding the data which has been encrypted into a secret format.\n\n An authorized user can only decrypt data because decryption requires a secret\n key or password.");
         jScrollPane9.setViewportView(jTextArea9);
 
-        javax
+        javax.swing.GroupLayout AboutDecryptionPLayout = new javax.swing.GroupLayout(AboutDecryptionP);
+        AboutDecryptionP.setLayout(AboutDecryptionPLayout);
+        AboutDecryptionPLayout.setHorizontalGroup(
+            AboutDecryptionPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(AboutDecryptionPLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 662, javax.swing.GroupLayout.PREFERRED_SIZE
