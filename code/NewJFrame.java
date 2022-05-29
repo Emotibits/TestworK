@@ -1181,3 +1181,12 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addContainerGap(40, Short.MAX_VALUE)
                 .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 356, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(34, 34, 34))
+        );
+
+        jPanel4.add(AboutDecryptionP, "card7");
+
+        AboutAlgorithmsP.setBackground(new java.awt.Color(51, 51, 51));
+
+        jTextArea10.setColumns(20);
+        jTextArea10.setRows(5);
+        jTextArea10.setText("1. Triple DES\nTriple DES was designed to replace the original Data Encryption Standard (DES) \nalgorithm, which hackers eventually learned to defeat with relative ease. \nAt one time, Triple DES was the recommended standard and the most widely used \nsymmetric algorithm in the indust
