@@ -1193,4 +1193,13 @@ public class NewJFrame extends javax.swing.JFrame {
         jScrollPane10.setViewportView(jTextArea10);
 
         javax.swing.GroupLayout AboutAlgorithmsPLayout = new javax.swing.GroupLayout(AboutAlgorithmsP);
-        Ab
+        AboutAlgorithmsP.setLayout(AboutAlgorithmsPLayout);
+        AboutAlgorithmsPLayout.setHorizontalGroup(
+            AboutAlgorithmsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(AboutAlgorithmsPLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane10, javax.swing.GroupLayout.DEFAULT_SIZE, 670, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        AboutAlgorithmsPLayout.setVerticalGroup(
+            AboutAlgorithmsPLayout.createParallel
