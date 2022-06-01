@@ -1202,4 +1202,17 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addContainerGap())
         );
         AboutAlgorithmsPLayout.setVerticalGroup(
-            AboutAlgorithmsPLayout.createParallel
+            AboutAlgorithmsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(AboutAlgorithmsPLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane10, javax.swing.GroupLayout.PREFERRED_SIZE, 382, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(37, Short.MAX_VALUE))
+        );
+
+        jPanel4.add(AboutAlgorithmsP, "card8");
+
+        DESP.setBackground(new java.awt.Color(51, 51, 51));
+
+        jTextArea11.setColumns(20);
+        jTextArea11.setRows(5);
+        jTextArea11.setText("The Data Encrypti
