@@ -1215,4 +1215,4 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jTextArea11.setColumns(20);
         jTextArea11.setRows(5);
-        jTextArea11.setText("The Data Encrypti
+        jTextArea11.setText("The Data Encryption Standard (DES) is a symmetric-key block cipher published\n by the National Institute of Standards and Technology (NIST).\n\nDES is an implementation of a Feistel Cipher. It uses 16 round Feistel \nstructure. The block size is 64-bit. Though, key length is 64-bit, DES has an\n effective key length of 56 bits, since 8 of the 64 bits of the key are not used\n by the encryption algorithm (function as check bits only).\n\nDES Analysis\nThe DES satisfies both the desired properties of b
