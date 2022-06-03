@@ -1216,4 +1216,13 @@ public class NewJFrame extends javax.swing.JFrame {
         jTextArea11.setColumns(20);
         jTextArea11.setRows(5);
         jTextArea11.setText("The Data Encryption Standard (DES) is a symmetric-key block cipher published\n by the National Institute of Standards and Technology (NIST).\n\nDES is an implementation of a Feistel Cipher. It uses 16 round Feistel \nstructure. The block size is 64-bit. Though, key length is 64-bit, DES has an\n effective key length of 56 bits, since 8 of the 64 bits of the key are not used\n by the encryption algorithm (function as check bits only).\n\nDES Analysis\nThe DES satisfies both the desired properties of block cipher. These two \nproperties make cipher very strong.\n\nAvalanche effect − A small change in plaintext results in the very great chang\ne in the ciphertext.\n\nCompleteness − Each bit of ciphertext depends on many bits of plaintext.\n\nDuring the last few years, cryptanalysis have found some weaknesses in DES when \nkey selected are weak keys. These keys shall be avoided.\n\nDES has proved to be a very well designed block cipher. There have been no\n significant cryptanalytic attacks on DES other than exhaustive key search.");
-        jSc
+        jScrollPane11.setViewportView(jTextArea11);
+
+        javax.swing.GroupLayout DESPLayout = new javax.swing.GroupLayout(DESP);
+        DESP.setLayout(DESPLayout);
+        DESPLayout.setHorizontalGroup(
+            DESPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(DESPLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 656, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGa
