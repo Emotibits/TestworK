@@ -1225,4 +1225,18 @@ public class NewJFrame extends javax.swing.JFrame {
             .addGroup(DESPLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 656, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGa
+                .addContainerGap(24, Short.MAX_VALUE))
+        );
+        DESPLayout.setVerticalGroup(
+            DESPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(DESPLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 389, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(30, Short.MAX_VALUE))
+        );
+
+        jPanel4.add(DESP, "card9");
+
+        Des3P.setBackground(new java.awt.Color(51, 51, 51));
+
+ 
