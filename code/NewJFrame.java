@@ -1239,4 +1239,6 @@ public class NewJFrame extends javax.swing.JFrame {
 
         Des3P.setBackground(new java.awt.Color(51, 51, 51));
 
- 
+        jTextArea12.setColumns(20);
+        jTextArea12.setRows(5);
+        jTextArea12.setText("The speed of exhaustive key searches against DES after 1990 began to cause \ndiscomfort amongst users of DES. However, users did not want to replace DES as it\n takes an enormous amount of time and money to change encryption algorithms that \nare widely adopted and embedded in large security architectures.\n\nThe pragmatic approach was not to abandon the DES completely, but to change the \nmanner in which DES is used. This led to the modified schemes of
