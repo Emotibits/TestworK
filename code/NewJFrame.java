@@ -1254,4 +1254,17 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addContainerGap(18, Short.MAX_VALUE))
         );
         Des3PLayout.setVerticalGroup(
-            Des3PLayout.cre
+            Des3PLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Des3PLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane12, javax.swing.GroupLayout.PREFERRED_SIZE, 394, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(25, Short.MAX_VALUE))
+        );
+
+        jPanel4.add(Des3P, "card10");
+
+        AesP.setBackground(new java.awt.Color(51, 51, 51));
+
+        jTextArea13.setColumns(20);
+        jTextArea13.setRows(5);
+        jTextArea13.setText("The 
