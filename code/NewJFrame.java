@@ -1267,4 +1267,4 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jTextArea13.setColumns(20);
         jTextArea13.setRows(5);
-        jTextArea13.setText("The 
+        jTextArea13.setText("The more popular and widely adopted symmetric encryption algorithm likely to be \nencountered nowadays is the Advanced Encryption Standard (AES). It is found at\n least six time faster than triple DES.\n\nA replacement for DES was needed as its key size was too small. With increasing \ncomputing power, it was considered vulnerable against exhaustive key search attack.\n Triple DES was designed to overcome this drawback but it was found slow.\n\nThe features of AES are as follows −\n\nSymmetric key symmetric 
