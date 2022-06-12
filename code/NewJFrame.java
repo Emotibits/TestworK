@@ -1241,4 +1241,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jTextArea12.setColumns(20);
         jTextArea12.setRows(5);
-        jTextArea12.setText("The speed of exhaustive key searches against DES after 1990 began to cause \ndiscomfort amongst users of DES. However, users did not want to replace DES as it\n takes an enormous amount of time and money to change encryption algorithms that \nare widely adopted and embedded in large security architectures.\n\nThe pragmatic approach was not to abandon the DES completely, but to change the \nmanner in which DES is used. This led to the modified schemes of
+        jTextArea12.setText("The speed of exhaustive key searches against DES after 1990 began to cause \ndiscomfort amongst users of DES. However, users did not want to replace DES as it\n takes an enormous amount of time and money to change encryption algorithms that \nare widely adopted and embedded in large security architectures.\n\nThe pragmatic approach was not to abandon the DES completely, but to change the \nmanner in which DES is used. This led to the modified schemes of Triple DES \n(sometimes known as 3DES).\n\nIncidentally, there are two variants of Triple DES known as 3-key Triple DES \n(3TDES) and 2-key Triple DES (2TDES).\n\n3-KEY Triple DES\nBefore using 3TDES, user first generate and distribute a 3TDES key K, which \nconsists of three different DES keys K1, K2 and K3. This means that the actual \n3TDES key has length 3×56 = 168 bits.");
+        jScrollPane12.setViewportView(jTextArea12);
+
+        javax.swing.GroupLayout Des3PLayout = new javax.swing.Group
