@@ -1268,4 +1268,15 @@ public class NewJFrame extends javax.swing.JFrame {
         jTextArea13.setColumns(20);
         jTextArea13.setRows(5);
         jTextArea13.setText("The more popular and widely adopted symmetric encryption algorithm likely to be \nencountered nowadays is the Advanced Encryption Standard (AES). It is found at\n least six time faster than triple DES.\n\nA replacement for DES was needed as its key size was too small. With increasing \ncomputing power, it was considered vulnerable against exhaustive key search attack.\n Triple DES was designed to overcome this drawback but it was found slow.\n\nThe features of AES are as follows −\n\nSymmetric key symmetric block cipher\n128-bit data, 128/192/256-bit keys\nStronger and faster than Triple-DES\nProvide full specification and design details\nSoftware implementable in C and Java\nOperation of AES\nAES is an iterative rather than Feistel cipher. It is based on \n‘substitution–permutation network’. It comprises of a series of linked operations\n, some of which involve replacing inputs by specific outputs (substitutions) \nand others involve shuffling bits around (permutations).\n\nInterestingly, AES performs all its computations on bytes rather than bits. \nHence, AES treats the 128 bits of a plaintext block as 16 bytes. These 16 bytes \nare arranged in four columns and four rows for processing as a matrix −\n\n\nUnlike DES, the number of rounds in AES is variable and depends on the length\n of the key. AES uses 10 rounds for 128-bit keys, 12 rounds for 192-bit keys \nand 14 rounds for 256-bit keys. Each of these rounds uses a different 128-bit\n round key, which is calculated from the original AES key.");
-        jScrollPane13.setViewportView(jT
+        jScrollPane13.setViewportView(jTextArea13);
+
+        javax.swing.GroupLayout AesPLayout = new javax.swing.GroupLayout(AesP);
+        AesP.setLayout(AesPLayout);
+        AesPLayout.setHorizontalGroup(
+            AesPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(AesPLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane13, javax.swing.GroupLayout.DEFAULT_SIZE, 670, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        AesPLayout.se
