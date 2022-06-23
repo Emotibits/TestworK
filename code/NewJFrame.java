@@ -1289,4 +1289,11 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jPanel4.add(AesP, "card2");
 
-        javax.swing.GroupLayout LearnAppPLayout = new javax.swing.Group
+        javax.swing.GroupLayout LearnAppPLayout = new javax.swing.GroupLayout(LearnAppP);
+        LearnAppP.setLayout(LearnAppPLayout);
+        LearnAppPLayout.setHorizontalGroup(
+            LearnAppPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(LearnAppPLayout.createSequentialGroup()
+                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAU
