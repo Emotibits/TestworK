@@ -1308,4 +1308,15 @@ public class NewJFrame extends javax.swing.JFrame {
 
         SettingsP.setBackground(new java.awt.Color(51, 51, 51));
 
-        jLabel32.set
+        jLabel32.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel32.setText("<Back");
+        jLabel32.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel32.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel32MouseClicked(evt);
+            }
+        });
+
+        jLabel28.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel28.setText("Profile Setting");
+        jLabel28.setCursor(n
