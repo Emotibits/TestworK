@@ -1319,4 +1319,15 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jLabel28.setForeground(new java.awt.Color(255, 255, 255));
         jLabel28.setText("Profile Setting");
-        jLabel28.setCursor(n
+        jLabel28.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel28.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel28MouseClicked(evt);
+            }
+        });
+
+        jLabel33.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel33.setText("Password");
+        jLabel33.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel33.addMouseListener(new java.awt.event.MouseAdapter() {
+            publ
