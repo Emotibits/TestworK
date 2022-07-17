@@ -1356,4 +1356,10 @@ public class NewJFrame extends javax.swing.JFrame {
         javax.swing.GroupLayout SettingsPLayout = new javax.swing.GroupLayout(SettingsP);
         SettingsP.setLayout(SettingsPLayout);
         SettingsPLayout.setHorizontalGroup(
-            SettingsPLayout.createParall
+            SettingsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(SettingsPLayout.createSequentialGroup()
+                .addGroup(SettingsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel32, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(SettingsPLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(SettingsPLayout.createParallelGroup(javax.swing.GroupLayo
