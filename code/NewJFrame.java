@@ -1344,4 +1344,16 @@ public class NewJFrame extends javax.swing.JFrame {
             }
         });
 
-        jLabel35.setForeground(ne
+        jLabel35.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel35.setText("Reset Account");
+        jLabel35.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel35.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel35MouseClicked(evt);
+            }
+        });
+
+        javax.swing.GroupLayout SettingsPLayout = new javax.swing.GroupLayout(SettingsP);
+        SettingsP.setLayout(SettingsPLayout);
+        SettingsPLayout.setHorizontalGroup(
+            SettingsPLayout.createParall
