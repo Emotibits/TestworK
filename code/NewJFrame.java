@@ -1362,4 +1362,10 @@ public class NewJFrame extends javax.swing.JFrame {
                     .addComponent(jLabel32, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(SettingsPLayout.createSequentialGroup()
                         .addContainerGap()
-                        .addGroup(SettingsPLayout.createParallelGroup(javax.swing.GroupLayo
+                        .addGroup(SettingsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel28, javax.swing.GroupLayout.PREFERRED_SIZE, 181, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel33, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addGap(0, 529, Short.MAX_VALUE))
+            .addGroup(SettingsPLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(SettingsPLayout.createParallelGroup(java
