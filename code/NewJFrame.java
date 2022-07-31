@@ -1412,4 +1412,15 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel95.setFont(new java.awt.Font("Tahoma", 2, 24)); // NOI18N
         jLabel95.setForeground(new java.awt.Color(255, 255, 255));
         jLabel95.setText("<Back");
-        jLabel95
+        jLabel95.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel95.setOpaque(true);
+        jLabel95.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel95MouseClicked(evt);
+            }
+        });
+
+        jLabel96.setBackground(new java.awt.Color(102, 153, 255));
+        jLabel96.setFont(new java.awt.Font("Tahoma", 2, 24)); // NOI18N
+        jLabel96.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel96.setText("Edit Informat
