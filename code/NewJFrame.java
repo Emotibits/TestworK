@@ -1401,4 +1401,15 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel31.setText("User Name");
 
         jLabel91.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel91.setForegrou
+        jLabel91.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel91.setText("Email-ID");
+
+        jLabel94.setFont(new java.awt.Font("Tahoma", 3, 24)); // NOI18N
+        jLabel94.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel94.setText("Your Information");
+
+        jLabel95.setBackground(new java.awt.Color(102, 153, 255));
+        jLabel95.setFont(new java.awt.Font("Tahoma", 2, 24)); // NOI18N
+        jLabel95.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel95.setText("<Back");
+        jLabel95
