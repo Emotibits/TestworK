@@ -1388,4 +1388,17 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addGap(0, 104, Short.MAX_VALUE))
         );
 
-        jPanel2.a
+        jPanel2.add(SettingsP, "card6");
+
+        AnalyticsP.setBackground(new java.awt.Color(51, 51, 51));
+
+        jLabel29.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel29.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel29.setText("Name");
+
+        jLabel31.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel31.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel31.setText("User Name");
+
+        jLabel91.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel91.setForegrou
