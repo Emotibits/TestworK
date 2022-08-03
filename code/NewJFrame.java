@@ -1423,4 +1423,16 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel96.setBackground(new java.awt.Color(102, 153, 255));
         jLabel96.setFont(new java.awt.Font("Tahoma", 2, 24)); // NOI18N
         jLabel96.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel96.setText("Edit Informat
+        jLabel96.setText("Edit Information");
+        jLabel96.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel96.setOpaque(true);
+        jLabel96.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel96MouseClicked(evt);
+            }
+        });
+
+        javax.swing.GroupLayout AnalyticsPLayout = new javax.swing.GroupLayout(AnalyticsP);
+        AnalyticsP.setLayout(AnalyticsPLayout);
+        AnalyticsPLayout.setHorizontalGroup(
+            AnalyticsPLayout.createParallelGroup(javax.swi
