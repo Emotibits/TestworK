@@ -1435,4 +1435,12 @@ public class NewJFrame extends javax.swing.JFrame {
         javax.swing.GroupLayout AnalyticsPLayout = new javax.swing.GroupLayout(AnalyticsP);
         AnalyticsP.setLayout(AnalyticsPLayout);
         AnalyticsPLayout.setHorizontalGroup(
-            AnalyticsPLayout.createParallelGroup(javax.swi
+            AnalyticsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(AnalyticsPLayout.createSequentialGroup()
+                .addGap(220, 220, 220)
+                .addComponent(jLabel94, javax.swing.GroupLayout.PREFERRED_SIZE, 269, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(222, 222, 222))
+            .addGroup(AnalyticsPLayout.createSequentialGroup()
+                .addGap(118, 118, 118)
+                .addGroup(AnalyticsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabe
