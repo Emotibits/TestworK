@@ -1443,4 +1443,11 @@ public class NewJFrame extends javax.swing.JFrame {
             .addGroup(AnalyticsPLayout.createSequentialGroup()
                 .addGap(118, 118, 118)
                 .addGroup(AnalyticsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabe
+                    .addComponent(jLabel31)
+                    .addComponent(jLabel29)
+                    .addComponent(jLabel91)
+                    .addComponent(jLabel95, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(AnalyticsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(AnalyticsPLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 124, Short.MAX_VALUE)
+          
