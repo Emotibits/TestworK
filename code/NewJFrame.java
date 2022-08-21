@@ -1454,4 +1454,13 @@ public class NewJFrame extends javax.swing.JFrame {
                             .addComponent(email, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(AnalyticsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                 .addComponent(name, javax.swing.GroupLayout.DEFAULT_SIZE, 170, Short.MAX_VALUE)
-                    
+                                .addComponent(userName)))
+                        .addGap(222, 222, 222))
+                    .addGroup(AnalyticsPLayout.createSequentialGroup()
+                        .addGap(138, 138, 138)
+                        .addComponent(jLabel96)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+        );
+        AnalyticsPLayout.setVerticalGroup(
+            AnalyticsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(AnalyticsPLayout.createSequentialGrou
