@@ -1463,4 +1463,12 @@ public class NewJFrame extends javax.swing.JFrame {
         );
         AnalyticsPLayout.setVerticalGroup(
             AnalyticsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(AnalyticsPLayout.createSequentialGrou
+            .addGroup(AnalyticsPLayout.createSequentialGroup()
+                .addGap(81, 81, 81)
+                .addComponent(jLabel94, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(46, 46, 46)
+                .addGroup(AnalyticsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel29)
+                    .addComponent(name, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(37, 37, 37)
+     
