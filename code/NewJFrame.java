@@ -1489,4 +1489,14 @@ public class NewJFrame extends javax.swing.JFrame {
 
         EncryptionP.setBackground(new java.awt.Color(51, 51, 51));
 
-        jLabel30.setBackground(new java
+        jLabel30.setBackground(new java.awt.Color(0, 0, 255));
+        jLabel30.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel30.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel30.setText("Choose one algorithm to encrypt ");
+        jLabel30.setOpaque(true);
+
+        jLabel52.setBackground(new java.awt.Color(255, 153, 0));
+        jLabel52.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel52.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel52.setText("Encryption With DES");
+        jLabel5
