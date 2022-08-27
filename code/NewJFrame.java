@@ -1477,4 +1477,16 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addGap(40, 40, 40)
                 .addGroup(AnalyticsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel91)
-                    .addComponent(email, javax.s
+                    .addComponent(email, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 26, Short.MAX_VALUE)
+                .addGroup(AnalyticsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel95)
+                    .addComponent(jLabel96))
+                .addGap(53, 53, 53))
+        );
+
+        jPanel2.add(AnalyticsP, "card7");
+
+        EncryptionP.setBackground(new java.awt.Color(51, 51, 51));
+
+        jLabel30.setBackground(new java
