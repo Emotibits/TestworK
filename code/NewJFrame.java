@@ -1510,4 +1510,12 @@ public class NewJFrame extends javax.swing.JFrame {
             }
         });
 
-        jLabel55.setBackground(new 
+        jLabel55.setBackground(new java.awt.Color(255, 153, 51));
+        jLabel55.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel55.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel55.setText("Encryption With Double  DES");
+        jLabel55.setToolTipText("Two key required");
+        jLabel55.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabel55.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel55.setFocusTraversalPolicyProvider(true);
+      
