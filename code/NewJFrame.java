@@ -1499,4 +1499,15 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel52.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel52.setForeground(new java.awt.Color(255, 255, 255));
         jLabel52.setText("Encryption With DES");
-        jLabel5
+        jLabel52.setToolTipText("One Key Required");
+        jLabel52.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabel52.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel52.setFocusTraversalPolicyProvider(true);
+        jLabel52.setOpaque(true);
+        jLabel52.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel52MouseClicked(evt);
+            }
+        });
+
+        jLabel55.setBackground(new 
