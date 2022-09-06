@@ -1551,4 +1551,11 @@ public class NewJFrame extends javax.swing.JFrame {
             }
         });
 
-        javax.swing.GroupLayout EncryptionPLayout = ne
+        javax.swing.GroupLayout EncryptionPLayout = new javax.swing.GroupLayout(EncryptionP);
+        EncryptionP.setLayout(EncryptionPLayout);
+        EncryptionPLayout.setHorizontalGroup(
+            EncryptionPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(EncryptionPLayout.createSequentialGroup()
+                .addGap(57, 57, 57)
+                .addGroup(EncryptionPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel52, javax.swing.GroupLayout.PREFERRED_SIZE, 354, j
