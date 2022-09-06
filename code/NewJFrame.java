@@ -1540,4 +1540,15 @@ public class NewJFrame extends javax.swing.JFrame {
             }
         });
 
-        jLabel92.setBackground(new j
+        jLabel92.setBackground(new java.awt.Color(255, 204, 0));
+        jLabel92.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel92.setText("<Back");
+        jLabel92.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel92.setOpaque(true);
+        jLabel92.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel92MouseClicked(evt);
+            }
+        });
+
+        javax.swing.GroupLayout EncryptionPLayout = ne
