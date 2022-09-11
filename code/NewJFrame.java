@@ -1571,4 +1571,10 @@ public class NewJFrame extends javax.swing.JFrame {
         EncryptionPLayout.setVerticalGroup(
             EncryptionPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(EncryptionPLayout.createSequentialGroup()
-          
+                .addGroup(EncryptionPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(EncryptionPLayout.createSequentialGroup()
+                        .addGap(25, 25, 25)
+                        .addComponent(jLabel30, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabel92, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(39, 39, 39)
+                .addComponent(jLabel52, javax.swing.
