@@ -1595,4 +1595,15 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel90.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel90.setForeground(new java.awt.Color(240, 240, 240));
         jLabel90.setText("Decrypt");
-        jLabel90.se
+        jLabel90.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel90.setOpaque(true);
+        jLabel90.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel90MouseClicked(evt);
+            }
+        });
+
+        jLabel74.setBackground(new java.awt.Color(255, 204, 0));
+        jLabel74.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel74.setText("<Back");
+        jLabel74.setCursor(new java.awt.Cursor(java.awt.
