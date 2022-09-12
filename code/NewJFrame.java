@@ -1582,4 +1582,17 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addComponent(jLabel55, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel56, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContaine
+                .addContainerGap(65, Short.MAX_VALUE))
+        );
+
+        jPanel2.add(EncryptionP, "card8");
+
+        DecryptionP.setBackground(new java.awt.Color(51, 51, 51));
+
+        pathD.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        jLabel90.setBackground(new java.awt.Color(51, 51, 255));
+        jLabel90.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel90.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel90.setText("Decrypt");
+        jLabel90.se
