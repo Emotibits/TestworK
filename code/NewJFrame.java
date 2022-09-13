@@ -1606,4 +1606,17 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel74.setBackground(new java.awt.Color(255, 204, 0));
         jLabel74.setForeground(new java.awt.Color(240, 240, 240));
         jLabel74.setText("<Back");
-        jLabel74.setCursor(new java.awt.Cursor(java.awt.
+        jLabel74.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel74.setOpaque(true);
+        jLabel74.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel74MouseClicked(evt);
+            }
+        });
+
+        jLabel93.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel93.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel93.setText("Decryption");
+
+        jButton5.setBackground(new java.awt.Color(0, 204, 204));
+        jButton5.setText(
