@@ -1619,4 +1619,15 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel93.setText("Decryption");
 
         jButton5.setBackground(new java.awt.Color(0, 204, 204));
-        jButton5.setText(
+        jButton5.setText("Enter Folder Path Here");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout DecryptionPLayout = new javax.swing.GroupLayout(DecryptionP);
+        DecryptionP.setLayout(DecryptionPLayout);
+        DecryptionPLayout.setHorizontalGroup(
+            DecryptionPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup
