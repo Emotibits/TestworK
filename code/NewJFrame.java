@@ -1630,4 +1630,10 @@ public class NewJFrame extends javax.swing.JFrame {
         DecryptionP.setLayout(DecryptionPLayout);
         DecryptionPLayout.setHorizontalGroup(
             DecryptionPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup
+            .addGroup(DecryptionPLayout.createSequentialGroup()
+                .addGroup(DecryptionPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(DecryptionPLayout.createSequentialGroup()
+                        .addGap(98, 98, 98)
+                        .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 178, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(55, 55, 55)
+                        .addComponent(pathD, javax.swing.GroupLayout.PREFERRED_SIZE, 323, javax.swing.
