@@ -1636,4 +1636,11 @@ public class NewJFrame extends javax.swing.JFrame {
                         .addGap(98, 98, 98)
                         .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 178, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(55, 55, 55)
-                        .addComponent(pathD, javax.swing.GroupLayout.PREFERRED_SIZE, 323, javax.swing.
+                        .addComponent(pathD, javax.swing.GroupLayout.PREFERRED_SIZE, 323, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(DecryptionPLayout.createSequentialGroup()
+                        .addGap(221, 221, 221)
+                        .addComponent(jLabel90, javax.swing.GroupLayout.PREFERRED_SIZE, 257, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabel74, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(DecryptionPLayout.createSequentialGroup()
+                        .addGap(200, 200, 200)
+         
