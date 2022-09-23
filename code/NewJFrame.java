@@ -1650,4 +1650,11 @@ public class NewJFrame extends javax.swing.JFrame {
             DecryptionPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(DecryptionPLayout.createSequentialGroup()
                 .addComponent(jLabel74, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.s
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel93, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(50, 50, 50)
+                .addGroup(DecryptionPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(pathD)
+                    .addComponent(jButton5, javax.swing.GroupLayout.DEFAULT_SIZE, 40, Short.MAX_VALUE))
+                .addGap(82, 82, 82)
+                .addCompone
