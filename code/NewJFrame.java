@@ -1657,4 +1657,15 @@ public class NewJFrame extends javax.swing.JFrame {
                     .addComponent(pathD)
                     .addComponent(jButton5, javax.swing.GroupLayout.DEFAULT_SIZE, 40, Short.MAX_VALUE))
                 .addGap(82, 82, 82)
-                .addCompone
+                .addComponent(jLabel90, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(152, Short.MAX_VALUE))
+        );
+
+        jPanel2.add(DecryptionP, "card9");
+
+        ResetAccountP.setBackground(new java.awt.Color(51, 51, 51));
+        ResetAccountP.setForeground(new java.awt.Color(255, 255, 255));
+
+        jLabel58.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel58.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel58.setText("All Data Of Your Account
