@@ -1678,4 +1678,15 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel60.setForeground(new java.awt.Color(255, 255, 255));
         jLabel60.setText("To Proceed Click Reset \"Account Button\" Below");
 
-        jLabel61.setForeground(new java.awt.Color(255, 255, 255
+        jLabel61.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel61.setText("<Back");
+        jLabel61.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel61.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel61MouseClicked(evt);
+            }
+        });
+
+        jLabel62.setBackground(new java.awt.Color(0, 153, 255));
+        jLabel62.setFont(new java.awt.Font("Adams", 1, 36)); // NOI18N
+        jLabel62.setForeground(new java.awt.
