@@ -1668,4 +1668,14 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jLabel58.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel58.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel58.setText("All Data Of Your Account
+        jLabel58.setText("All Data Of Your Account Will be Lost Including Keys and Your Profile Image");
+
+        jLabel59.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
+        jLabel59.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel59.setText("Reset Account Setting");
+
+        jLabel60.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel60.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel60.setText("To Proceed Click Reset \"Account Button\" Below");
+
+        jLabel61.setForeground(new java.awt.Color(255, 255, 255
