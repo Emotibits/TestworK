@@ -1689,4 +1689,13 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jLabel62.setBackground(new java.awt.Color(0, 153, 255));
         jLabel62.setFont(new java.awt.Font("Adams", 1, 36)); // NOI18N
-        jLabel62.setForeground(new java.awt.
+        jLabel62.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel62.setText("Reset Account");
+        jLabel62.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+
+        javax.swing.GroupLayout ResetAccountPLayout = new javax.swing.GroupLayout(ResetAccountP);
+        ResetAccountP.setLayout(ResetAccountPLayout);
+        ResetAccountPLayout.setHorizontalGroup(
+            ResetAccountPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(ResetAccountPLayout.createSequentialGroup()
+ 
