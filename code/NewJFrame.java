@@ -1698,4 +1698,11 @@ public class NewJFrame extends javax.swing.JFrame {
         ResetAccountPLayout.setHorizontalGroup(
             ResetAccountPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(ResetAccountPLayout.createSequentialGroup()
- 
+                .addGroup(ResetAccountPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(ResetAccountPLayout.createSequentialGroup()
+                        .addGap(22, 22, 22)
+                        .addComponent(jLabel61))
+                    .addGroup(ResetAccountPLayout.createSequentialGroup()
+                        .addGap(208, 208, 208)
+                        .addComponent(jLabel62, javax.swing.GroupLayout.PREFERRED_SIZE, 360, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .
