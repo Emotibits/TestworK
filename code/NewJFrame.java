@@ -1710,4 +1710,12 @@ public class NewJFrame extends javax.swing.JFrame {
                         .addGroup(ResetAccountPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(jLabel58, javax.swing.GroupLayout.DEFAULT_SIZE, 638, Short.MAX_VALUE)
                             .addComponent(jLabel60, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                    .addGroup(ResetAccountPLayout.c
+                    .addGroup(ResetAccountPLayout.createSequentialGroup()
+                        .addGap(172, 172, 172)
+                        .addComponent(jLabel59, javax.swing.GroupLayout.PREFERRED_SIZE, 306, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        ResetAccountPLayout.setVerticalGroup(
+            ResetAccountPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(ResetAccountPLayout.createSequentialGroup()
+                .addGap(27, 27, 2
