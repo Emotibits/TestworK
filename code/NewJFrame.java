@@ -1750,4 +1750,16 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jLabel65.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel65.setForeground(new java.awt.Color(240, 240, 240));
- 
+        jLabel65.setText("Old Password");
+
+        jLabel66.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel66.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel66.setText("New Password");
+
+        jLabel67.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel67.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel67.setText("Confirm Password");
+
+        jLabel68.setBackground(new java.awt.Color(51, 153, 255));
+        jLabel68.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+    
