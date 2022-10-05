@@ -1737,4 +1737,17 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jLabel63.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         jLabel63.setForeground(new java.awt.Color(240, 240, 240));
-        jLa
+        jLabel63.setText("Change Password");
+
+        jLabel64.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel64.setText("<Back");
+        jLabel64.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel64.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel64MouseClicked(evt);
+            }
+        });
+
+        jLabel65.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel65.setForeground(new java.awt.Color(240, 240, 240));
+ 
