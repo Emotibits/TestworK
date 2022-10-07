@@ -1773,4 +1773,15 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jLabel69.setFont(new java.awt.Font("Tempus Sans ITC", 1, 18)); // NOI18N
-        jLabel69.setForeground(new java.aw
+        jLabel69.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel69.setText("Forget Password??");
+        jLabel69.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+
+        oldPass.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                oldPassActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout confirmPassLayout = new javax.swing.GroupLayout(confirmPass);
+        confirmPass.setLayout(confirmPassLayout)
