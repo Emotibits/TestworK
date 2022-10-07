@@ -1762,4 +1762,15 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jLabel68.setBackground(new java.awt.Color(51, 153, 255));
         jLabel68.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-    
+        jLabel68.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel68.setText("Change Password ");
+        jLabel68.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel68.setOpaque(true);
+        jLabel68.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel68MouseClicked(evt);
+            }
+        });
+
+        jLabel69.setFont(new java.awt.Font("Tempus Sans ITC", 1, 18)); // NOI18N
+        jLabel69.setForeground(new java.aw
