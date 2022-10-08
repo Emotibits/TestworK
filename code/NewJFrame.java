@@ -1784,4 +1784,11 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         javax.swing.GroupLayout confirmPassLayout = new javax.swing.GroupLayout(confirmPass);
-        confirmPass.setLayout(confirmPassLayout)
+        confirmPass.setLayout(confirmPassLayout);
+        confirmPassLayout.setHorizontalGroup(
+            confirmPassLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(confirmPassLayout.createSequentialGroup()
+                .addGroup(confirmPassLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(confirmPassLayout.createSequentialGroup()
+                        .addGap(139, 139, 139)
+                        .addGroup(confirmPassLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, fa
