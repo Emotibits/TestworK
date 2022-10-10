@@ -1799,4 +1799,13 @@ public class NewJFrame extends javax.swing.JFrame {
                         .addGroup(confirmPassLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(oldPass, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(newPass, javax.swing.GroupLayout.PREFERRED_SIZE, 186, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(cp, javax.swing.GroupLayout.PREFERRED_SIZE, 186, javax.swing.GroupLayout.PREFERRED_
+                            .addComponent(cp, javax.swing.GroupLayout.PREFERRED_SIZE, 186, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(confirmPassLayout.createSequentialGroup()
+                        .addGap(131, 131, 131)
+                        .addComponent(jLabel69))
+                    .addGroup(confirmPassLayout.createSequentialGroup()
+                        .addGap(252, 252, 252)
+                        .addComponent(jLabel63, javax.swing.GroupLayout.PREFERRED_SIZE, 209, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(confirmPassLayout.createSequentialGroup()
+                        .addGap(19, 19, 19)
+                       
