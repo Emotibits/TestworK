@@ -1808,4 +1808,12 @@ public class NewJFrame extends javax.swing.JFrame {
                         .addComponent(jLabel63, javax.swing.GroupLayout.PREFERRED_SIZE, 209, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(confirmPassLayout.createSequentialGroup()
                         .addGap(19, 19, 19)
-                       
+                        .addComponent(jLabel64)))
+                .addContainerGap(125, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, confirmPassLayout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jLabel68, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(228, 228, 228))
+        );
+        confirmPassLayout.setVerticalGroup(
+            confirmPassLayout.createParallelGroup(javax.swing.GroupLa
