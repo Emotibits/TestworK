@@ -1816,4 +1816,12 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addGap(228, 228, 228))
         );
         confirmPassLayout.setVerticalGroup(
-            confirmPassLayout.createParallelGroup(javax.swing.GroupLa
+            confirmPassLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(confirmPassLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel64)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel63, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(38, 38, 38)
+                .addGroup(confirmPassLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLab
