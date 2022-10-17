@@ -1837,4 +1837,18 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addGap(31, 31, 31)
                 .addComponent(jLabel68, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 15, Short.MAX_VALUE)
-                .addCom
+                .addComponent(jLabel69)
+                .addGap(28, 28, 28))
+        );
+
+        jPanel2.add(confirmPass, "card12");
+
+        h.setBackground(new java.awt.Color(51, 51, 51));
+
+        jLabel72.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel72.setText("<Back");
+        jLabel72.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel72.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel72MouseClicked(evt);
+            
