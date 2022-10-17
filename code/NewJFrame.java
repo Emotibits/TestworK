@@ -1851,4 +1851,20 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel72.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel72MouseClicked(evt);
-            
+            }
+        });
+
+        jLabel73.setFont(new java.awt.Font("Tempus Sans ITC", 1, 18)); // NOI18N
+        jLabel73.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel73.setText("Set Your Profile");
+
+        ujh.setForeground(new java.awt.Color(240, 240, 240));
+        ujh.setText("User Name");
+
+        jk.setForeground(new java.awt.Color(240, 240, 240));
+        jk.setText("Name");
+
+        fjk.setForeground(new java.awt.Color(240, 240, 240));
+        fjk.setText("Email Id");
+
+       
