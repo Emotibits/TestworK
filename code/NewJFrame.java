@@ -1867,4 +1867,12 @@ public class NewJFrame extends javax.swing.JFrame {
         fjk.setForeground(new java.awt.Color(240, 240, 240));
         fjk.setText("Email Id");
 
-       
+        jLabel78.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel78.setText("SaVE bUTTON");
+        jLabel78.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+
+        jLabel79.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel79.setText("Don't Change");
+        jLabel79.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel79.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt
