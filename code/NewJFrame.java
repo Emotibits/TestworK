@@ -1875,4 +1875,15 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel79.setText("Don't Change");
         jLabel79.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel79.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel79MouseClicked(evt);
+            }
+        });
+
+        javax.swing.GroupLayout hLayout = new javax.swing.GroupLayout(h);
+        h.setLayout(hLayout);
+        hLayout.setHorizontalGroup(
+            hLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, hLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel78, javax.swing.GroupL
