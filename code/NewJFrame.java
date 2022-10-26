@@ -1907,4 +1907,13 @@ public class NewJFrame extends javax.swing.JFrame {
                             .addComponent(pUserName, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(hLayout.createSequentialGroup()
                         .addGap(136, 136, 136)
-                        .addC
+                        .addComponent(jLabel79, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(hLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jLabel72)))
+                .addContainerGap(298, Short.MAX_VALUE))
+        );
+        hLayout.setVerticalGroup(
+            hLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(hLayout.createSequentialGroup()
+            
