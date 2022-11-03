@@ -1961,4 +1961,20 @@ public class NewJFrame extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void HomeLMouseClicked(java.awt.event.Mou
+    private void HomeLMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_HomeLMouseClicked
+          jPanel2.removeAll();
+      
+       jPanel2.add(HomeP);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+    }//GEN-LAST:event_HomeLMouseClicked
+
+    private void AboutUsLMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_AboutUsLMouseClicked
+       jPanel2.removeAll();
+      
+       jPanel2.add(AboutUsP);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+    }//GEN-LAST:event_AboutUsLMouseClicked
+
+    private void ContactUsLMouseClicked(java.awt.
