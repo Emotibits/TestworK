@@ -2148,4 +2148,18 @@ public class NewJFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel57MouseClicked
 
     private void jLabel47MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel47MouseClicked
- 
+        
+    }//GEN-LAST:event_jLabel47MouseClicked
+
+    private void jLabel32MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel32MouseClicked
+        jPanel2.removeAll();
+        jPanel2.add(HomeP);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+    }//GEN-LAST:event_jLabel32MouseClicked
+
+    private void jLabel61MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel61MouseClicked
+jPanel2.removeAll();
+        jPanel2.add(SettingsP);
+        jPanel2.repaint();
+        jPanel2.revalidate();    }//GEN-LAST:event_jLabel61Mous
