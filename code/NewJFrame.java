@@ -2178,4 +2178,14 @@ jPanel2.removeAll();
         jPanel2.revalidate();
     }//GEN-LAST:event_jLabel64MouseClicked
 
-    p
+    private void jLabel33MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel33MouseClicked
+ jPanel2.removeAll();
+        jPanel2.add(confirmPass);
+        jPanel2.repaint();
+        jPanel2.revalidate();    }//GEN-LAST:event_jLabel33MouseClicked
+
+    private void jLabel34MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel34MouseClicked
+        
+    }//GEN-LAST:event_jLabel34MouseClicked
+
+    private void jLabel72MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event
