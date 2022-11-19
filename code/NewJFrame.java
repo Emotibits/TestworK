@@ -2188,4 +2188,20 @@ jPanel2.removeAll();
         
     }//GEN-LAST:event_jLabel34MouseClicked
 
-    private void jLabel72MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event
+    private void jLabel72MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel72MouseClicked
+         jPanel2.removeAll();
+        jPanel2.add(SettingsP);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+    }//GEN-LAST:event_jLabel72MouseClicked
+
+    private void jLabel28MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel28MouseClicked
+       jPanel2.removeAll();
+        jPanel2.add(h);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+                ujh.setText(Login.uUserName);
+                jk.setText(Login.uName);
+                fjk.setText(Login.uEmail);
+        
+    }//GEN-LAST:event
