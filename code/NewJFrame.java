@@ -2204,4 +2204,17 @@ jPanel2.removeAll();
                 jk.setText(Login.uName);
                 fjk.setText(Login.uEmail);
         
-    }//GEN-LAST:event
+    }//GEN-LAST:event_jLabel28MouseClicked
+
+    private void jLabel52MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel52MouseClicked
+       jPanel2.removeAll();
+        jPanel2.add(EncryptionWithDESP);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+    }//GEN-LAST:event_jLabel52MouseClicked
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+     
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBu
