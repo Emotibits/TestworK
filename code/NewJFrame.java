@@ -2244,4 +2244,19 @@ jPanel2.removeAll();
         jPanel2.add(EncryptionP);
         jPanel2.repaint();
         jPanel2.revalidate();
-    
+        fileName="";
+        path1.setText(fileName);
+        
+    }//GEN-LAST:event_jLabel89MouseClicked
+
+    private void jLabel13MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel13MouseClicked
+        jPanel2.removeAll();
+        jPanel2.add(EncryptionP);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+        fileName="";
+        path2.setText(fileName);
+    }//GEN-LAST:event_jLabel13MouseClicked
+
+    private void jLabel88MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel88MouseClicked
+ 
