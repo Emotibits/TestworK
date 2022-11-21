@@ -2231,3 +2231,17 @@ jPanel2.removeAll();
         jPanel2.repaint();
         jPanel2.revalidate();
     }//GEN-LAST:event_jLabel55MouseClicked
+
+    private void jLabel56MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel56MouseClicked
+       jPanel2.removeAll();
+        jPanel2.add(EncryptionWithTripleDESP);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+    }//GEN-LAST:event_jLabel56MouseClicked
+
+    private void jLabel89MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel89MouseClicked
+         jPanel2.removeAll();
+        jPanel2.add(EncryptionP);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+    
