@@ -2259,4 +2259,19 @@ jPanel2.removeAll();
     }//GEN-LAST:event_jLabel13MouseClicked
 
     private void jLabel88MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel88MouseClicked
- 
+         jPanel2.removeAll();
+        jPanel2.add(EncryptionP);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+        fileName="";
+        path.setText(fileName);
+    }//GEN-LAST:event_jLabel88MouseClicked
+
+    private void jLabel92MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel92MouseClicked
+        jPanel2.removeAll();
+        jPanel2.add(HomeP);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+    }//GEN-LAST:event_jLabel92MouseClicked
+
+    private void jLabel11MouseClicked(java.awt.event.MouseEvent 
