@@ -2302,4 +2302,19 @@ fileName=path.getText();
         Encryptor en = Encryptor.getEncrypter(true);
 		Decryptor de = Decryptor.getDecrypter(true);
 		
-		File src = new File(fileName
+		File src = new File(fileName);
+		// File dst = new File("C:\\dst");
+		en.encrypt(src,src);
+	//de.decrypt(src, src);
+    }//GEN-LAST:event_jLabel12MouseClicked
+
+    private void jLabel49MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel49MouseClicked
+        fileName=path1.getText();
+        Encryptor en = Encryptor.getEncrypter(true);
+		Decryptor de = Decryptor.getDecrypter(true);
+		
+		File src = new File(fileName);
+		// File dst = new File("C:\\dst");
+		en.encrypt(src,src);
+	//de.decrypt(src, src);
+    }//GEN-LAST
