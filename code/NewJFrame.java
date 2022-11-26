@@ -2288,3 +2288,18 @@ jPanel2.removeAll();
 
     private void jLabel87MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel87MouseClicked
         fileName=path2.getText(); 
+        Encryptor en = Encryptor.getEncrypter(true);
+		Decryptor de = Decryptor.getDecrypter(true);
+		
+		File src = new File(fileName);
+		// File dst = new File("C:\\dst");
+		en.encrypt(src,src);
+	//de.decrypt(src, src);
+    }//GEN-LAST:event_jLabel87MouseClicked
+
+    private void jLabel12MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel12MouseClicked
+fileName=path.getText();
+        Encryptor en = Encryptor.getEncrypter(true);
+		Decryptor de = Decryptor.getDecrypter(true);
+		
+		File src = new File(fileName
