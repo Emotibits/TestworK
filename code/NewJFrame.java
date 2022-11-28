@@ -2317,4 +2317,17 @@ fileName=path.getText();
 		// File dst = new File("C:\\dst");
 		en.encrypt(src,src);
 	//de.decrypt(src, src);
-    }//GEN-LAST
+    }//GEN-LAST:event_jLabel49MouseClicked
+
+    private void jLabel90MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel90MouseClicked
+        fileName=pathD.getText();         
+       Encryptor en = Encryptor.getEncrypter(true);
+		Decryptor de = Decryptor.getDecrypter(true);
+		
+		File src = new File(fileName);
+		File dst = new File("C:\\dst");
+		//en.encrypt(src,src);
+	de.decrypt(src, src);
+    }//GEN-LAST:event_jLabel90MouseClicked
+
+    private void jLabel74MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel74MouseClicke
