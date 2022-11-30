@@ -2345,4 +2345,16 @@ fileName=path.getText();
        jPanel2.removeAll();
         jPanel2.add(h);
         jPanel2.repaint();
- 
+        jPanel2.revalidate();
+    }//GEN-LAST:event_jLabel96MouseClicked
+
+    private void jLabel95MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel95MouseClicked
+        jPanel2.removeAll();
+        jPanel2.add(HomeP);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+    }//GEN-LAST:event_jLabel95MouseClicked
+
+    private void oldPassActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_oldPassActionPerformed
+        // TODO add your handling code here:
+    }
