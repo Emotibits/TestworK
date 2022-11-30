@@ -2330,4 +2330,19 @@ fileName=path.getText();
 	de.decrypt(src, src);
     }//GEN-LAST:event_jLabel90MouseClicked
 
-    private void jLabel74MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel74MouseClicke
+    private void jLabel74MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel74MouseClicked
+        jPanel2.removeAll();
+        jPanel2.add(HomeP);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+    }//GEN-LAST:event_jLabel74MouseClicked
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        
+    }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jLabel96MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel96MouseClicked
+       jPanel2.removeAll();
+        jPanel2.add(h);
+        jPanel2.repaint();
+ 
