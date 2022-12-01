@@ -2365,4 +2365,18 @@ fileName=path.getText();
             try{ 
            String sql= "update signin_info set password="+Login.uPassword+" where username="+ Login.uUserName;
                    Class.forName("com.mysql.jdbc.Driver");
-             Connection con =DriverManager.getConnection("jdbc:mysql://localhost:3306/se
+             Connection con =DriverManager.getConnection("jdbc:mysql://localhost:3306/security-z","root","");
+             PreparedStatement stmt = con.prepareStatement("update Signin_info set password=? where userName=?"); {
+      stmt.setString(1, newPass.getText());
+      stmt.setString(2, Login.uUserName);
+      stmt.executeUpdate();
+       
+     
+      JOptionPane.showMessageDialog(this, "old  password changed Successfully");
+                
+            }  
+         jPanel2.removeAll();
+        jPanel2.add(SettingsP);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+        }  catch(Exception 
