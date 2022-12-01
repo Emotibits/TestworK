@@ -2357,4 +2357,12 @@ fileName=path.getText();
 
     private void oldPassActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_oldPassActionPerformed
         // TODO add your handling code here:
-    }
+    }//GEN-LAST:event_oldPassActionPerformed
+
+    private void jLabel68MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel68MouseClicked
+        if(oldPass.getText().equals(Login.uPassword)| newPass.getText().equals(cp.getText()))
+        {
+            try{ 
+           String sql= "update signin_info set password="+Login.uPassword+" where username="+ Login.uUserName;
+                   Class.forName("com.mysql.jdbc.Driver");
+             Connection con =DriverManager.getConnection("jdbc:mysql://localhost:3306/se
