@@ -2379,4 +2379,20 @@ fileName=path.getText();
         jPanel2.add(SettingsP);
         jPanel2.repaint();
         jPanel2.revalidate();
-        }  catch(Exception 
+        }  catch(Exception e){
+           System.out.println(e.getMessage()+""+e.getStackTrace()+""+e);
+            
+         }
+             
+        }
+        
+            else
+                  JOptionPane.showMessageDialog(this, "old  password is wrong or may be confirm Password is not matched");
+          
+        
+    }//GEN-LAST:event_jLabel68MouseClicked
+
+    private void jLabel79MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel79MouseClicked
+       ujh.setText(Login.uUserName);
+                jk.setText(Login.uName);
+ 
