@@ -2395,4 +2395,17 @@ fileName=path.getText();
     private void jLabel79MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel79MouseClicked
        ujh.setText(Login.uUserName);
                 jk.setText(Login.uName);
- 
+                fjk.setText(Login.uEmail);
+                jPanel2.removeAll();
+        jPanel2.add(SettingsP);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+    }//GEN-LAST:event_jLabel79MouseClicked
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String args[]) {
+        /* Set the Nimbus look and feel */
+        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+        /* If Nimbus (introduced in Java SE 6) is not available, stay with the defa
