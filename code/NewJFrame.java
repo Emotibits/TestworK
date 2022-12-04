@@ -2425,4 +2425,19 @@ fileName=path.getText();
         } catch (IllegalAccessException ex) {
             java.util.logging.Logger.getLogger(NewJFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getL
+            java.util.logging.Logger.getLogger(NewJFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+        //</editor-fold>
+
+        /* Create and display the form */
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new NewJFrame().setVisible(true);
+            }
+        });
+    }
+String fileName;
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPanel AboutAlgorithmsP;
+    private javax.swing.JPanel AboutAppP1;
+    priva
