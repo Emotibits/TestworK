@@ -2440,4 +2440,17 @@ String fileName;
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel AboutAlgorithmsP;
     private javax.swing.JPanel AboutAppP1;
-    priva
+    private javax.swing.JPanel AboutDecryptionP;
+    private javax.swing.JPanel AboutEncryptionP;
+    private javax.swing.JLabel AboutUsL;
+    private javax.swing.JPanel AboutUsP;
+    private javax.swing.JPanel AesP;
+    private javax.swing.JPanel AnalyticsP;
+    private javax.swing.JLabel BalkaranImage;
+    private javax.swing.JLabel ContactUsL;
+    private javax.swing.JPanel ContactUsP;
+    private javax.swing.JPanel CryptographyP;
+    private javax.swing.JPanel DESP;
+    private javax.swing.JPanel DecryptionP;
+    private javax.swing.JPanel Des3P;
+   
