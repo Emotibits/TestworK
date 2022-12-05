@@ -2453,4 +2453,15 @@ String fileName;
     private javax.swing.JPanel DESP;
     private javax.swing.JPanel DecryptionP;
     private javax.swing.JPanel Des3P;
-   
+    private javax.swing.JPanel EncryptionP;
+    private javax.swing.JPanel EncryptionWithDESP;
+    private javax.swing.JPanel EncryptionWithDoubleDESP;
+    private javax.swing.JPanel EncryptionWithTripleDESP;
+    private javax.swing.JLabel HomeL;
+    private javax.swing.JPanel HomeP;
+    private javax.swing.JLabel LearnApp;
+    private javax.swing.JPanel LearnAppP;
+    private javax.swing.JLabel MyImage;
+    private javax.swing.JPanel ResetAccountP;
+    private javax.swing.JPanel SettingsP;
+    private javax.swing
