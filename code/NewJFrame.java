@@ -2464,4 +2464,17 @@ String fileName;
     private javax.swing.JLabel MyImage;
     private javax.swing.JPanel ResetAccountP;
     private javax.swing.JPanel SettingsP;
-    private javax.swing
+    private javax.swing.JLabel VarunImage;
+    private javax.swing.JPanel confirmPass;
+    private javax.swing.JPasswordField cp;
+    private javax.swing.JFormattedTextField email;
+    private javax.swing.JLabel fjk;
+    private javax.swing.JPanel h;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax
