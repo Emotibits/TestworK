@@ -2578,4 +2578,16 @@ String fileName;
     private javax.swing.JTextArea jTextArea13;
     private javax.swing.JTextArea jTextArea2;
     private javax.swing.JTextArea jTextArea3;
-    private javax
+    private javax.swing.JTextArea jTextArea4;
+    private javax.swing.JTextArea jTextArea5;
+    private javax.swing.JTextArea jTextArea6;
+    private javax.swing.JTextArea jTextArea7;
+    private javax.swing.JTextArea jTextArea8;
+    private javax.swing.JTextArea jTextArea9;
+    private javax.swing.JLabel jk;
+    private javax.swing.JFormattedTextField name;
+    private javax.swing.JPasswordField newPass;
+    private javax.swing.JPasswordField oldPass;
+    private javax.swing.JFormattedTextField pEmail;
+    private javax.swing.JFormattedTextField pName;
+    private jav
