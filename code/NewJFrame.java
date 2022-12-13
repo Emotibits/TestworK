@@ -2590,4 +2590,12 @@ String fileName;
     private javax.swing.JPasswordField oldPass;
     private javax.swing.JFormattedTextField pEmail;
     private javax.swing.JFormattedTextField pName;
-    private jav
+    private javax.swing.JFormattedTextField pUserName;
+    private javax.swing.JFormattedTextField path;
+    private javax.swing.JFormattedTextField path1;
+    private javax.swing.JFormattedTextField path2;
+    private javax.swing.JFormattedTextField pathD;
+    private javax.swing.JLabel ujh;
+    private javax.swing.JFormattedTextField userName;
+    // End of variables declaration//GEN-END:variables
+}
