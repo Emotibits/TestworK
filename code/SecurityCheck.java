@@ -151,3 +151,216 @@ public class SecurityCheck extends javax.swing.JFrame {
         Q4Layout.setVerticalGroup(
             Q4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 431, Short.MAX_VALUE)
+        );
+
+        jPanel2.add(Q4, "card8");
+
+        Q5.setBackground(new java.awt.Color(51, 51, 51));
+
+        javax.swing.GroupLayout Q5Layout = new javax.swing.GroupLayout(Q5);
+        Q5.setLayout(Q5Layout);
+        Q5Layout.setHorizontalGroup(
+            Q5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 858, Short.MAX_VALUE)
+        );
+        Q5Layout.setVerticalGroup(
+            Q5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 431, Short.MAX_VALUE)
+        );
+
+        jPanel2.add(Q5, "card9");
+
+        Q6.setBackground(new java.awt.Color(51, 51, 51));
+
+        javax.swing.GroupLayout Q6Layout = new javax.swing.GroupLayout(Q6);
+        Q6.setLayout(Q6Layout);
+        Q6Layout.setHorizontalGroup(
+            Q6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 858, Short.MAX_VALUE)
+        );
+        Q6Layout.setVerticalGroup(
+            Q6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 431, Short.MAX_VALUE)
+        );
+
+        jPanel2.add(Q6, "card10");
+
+        Q7.setBackground(new java.awt.Color(51, 51, 51));
+
+        javax.swing.GroupLayout Q7Layout = new javax.swing.GroupLayout(Q7);
+        Q7.setLayout(Q7Layout);
+        Q7Layout.setHorizontalGroup(
+            Q7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 858, Short.MAX_VALUE)
+        );
+        Q7Layout.setVerticalGroup(
+            Q7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 431, Short.MAX_VALUE)
+        );
+
+        jPanel2.add(Q7, "card11");
+
+        Q8.setBackground(new java.awt.Color(51, 51, 51));
+
+        javax.swing.GroupLayout Q8Layout = new javax.swing.GroupLayout(Q8);
+        Q8.setLayout(Q8Layout);
+        Q8Layout.setHorizontalGroup(
+            Q8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 858, Short.MAX_VALUE)
+        );
+        Q8Layout.setVerticalGroup(
+            Q8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 431, Short.MAX_VALUE)
+        );
+
+        jPanel2.add(Q8, "card12");
+
+        Q9.setBackground(new java.awt.Color(51, 51, 51));
+
+        javax.swing.GroupLayout Q9Layout = new javax.swing.GroupLayout(Q9);
+        Q9.setLayout(Q9Layout);
+        Q9Layout.setHorizontalGroup(
+            Q9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 858, Short.MAX_VALUE)
+        );
+        Q9Layout.setVerticalGroup(
+            Q9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 431, Short.MAX_VALUE)
+        );
+
+        jPanel2.add(Q9, "card6");
+
+        Q10.setBackground(new java.awt.Color(51, 51, 51));
+
+        javax.swing.GroupLayout Q10Layout = new javax.swing.GroupLayout(Q10);
+        Q10.setLayout(Q10Layout);
+        Q10Layout.setHorizontalGroup(
+            Q10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 858, Short.MAX_VALUE)
+        );
+        Q10Layout.setVerticalGroup(
+            Q10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 431, Short.MAX_VALUE)
+        );
+
+        jPanel2.add(Q10, "card5");
+
+        Q11.setBackground(new java.awt.Color(51, 51, 51));
+
+        javax.swing.GroupLayout Q11Layout = new javax.swing.GroupLayout(Q11);
+        Q11.setLayout(Q11Layout);
+        Q11Layout.setHorizontalGroup(
+            Q11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 858, Short.MAX_VALUE)
+        );
+        Q11Layout.setVerticalGroup(
+            Q11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 431, Short.MAX_VALUE)
+        );
+
+        jPanel2.add(Q11, "card4");
+
+        Q12.setBackground(new java.awt.Color(51, 51, 51));
+
+        javax.swing.GroupLayout Q12Layout = new javax.swing.GroupLayout(Q12);
+        Q12.setLayout(Q12Layout);
+        Q12Layout.setHorizontalGroup(
+            Q12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 858, Short.MAX_VALUE)
+        );
+        Q12Layout.setVerticalGroup(
+            Q12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 431, Short.MAX_VALUE)
+        );
+
+        jPanel2.add(Q12, "card3");
+
+        AccountCreated.setBackground(new java.awt.Color(51, 51, 51));
+
+        javax.swing.GroupLayout AccountCreatedLayout = new javax.swing.GroupLayout(AccountCreated);
+        AccountCreated.setLayout(AccountCreatedLayout);
+        AccountCreatedLayout.setHorizontalGroup(
+            AccountCreatedLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 858, Short.MAX_VALUE)
+        );
+        AccountCreatedLayout.setVerticalGroup(
+            AccountCreatedLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 431, Short.MAX_VALUE)
+        );
+
+        jPanel2.add(AccountCreated, "card2");
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
+
+        pack();
+    }// </editor-fold>//GEN-END:initComponents
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String args[]) {
+        /* Set the Nimbus look and feel */
+        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+         */
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(SecurityCheck.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(SecurityCheck.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(SecurityCheck.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(SecurityCheck.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+        //</editor-fold>
+
+        /* Create and display the form */
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new SecurityCheck().setVisible(true);
+            }
+        });
+    }
+
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPanel About;
+    private javax.swing.JPanel AccountCreated;
+    private javax.swing.JPanel Q1;
+    private javax.swing.JPanel Q10;
+    private javax.swing.JPanel Q11;
+    private javax.swing.JPanel Q12;
+    private javax.swing.JPanel Q2;
+    private javax.swing.JPanel Q3;
+    private javax.swing.JPanel Q4;
+    private javax.swing.JPanel Q5;
+    private javax.swing.JPanel Q6;
+    private javax.swing.JPanel Q7;
+    private javax.swing.JPanel Q8;
+    private javax.swing.JPanel Q9;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    // End of variables declaration//GEN-END:variables
+}
