@@ -58,4 +58,13 @@ public class Signin extends javax.swing.JFrame {
         mobileNo = new javax.swing.JFormattedTextField();
         email = new javax.swing.JFormattedTextField();
 
-        setDefaultCloseOperation(javax.swing.W
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jPanel1.setBackground(new java.awt.Color(255, 153, 0));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/securityz/Images/download.png"))); // NOI18N
+        jLabel1.setText(org.openide.util.NbBundle.getMessage(Signin.class, "Signin.jLabel1.text")); // NOI18N
+
+        jLabel2.setFont(new java.awt.Font("Adams", 0, 18)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setText(org.openide.util.NbBundle.getMessage(Signin.class, "Signin.jL
