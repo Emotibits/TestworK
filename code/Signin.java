@@ -47,4 +47,15 @@ public class Signin extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
-        jL
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        password = new javax.swing.JPasswordField();
+        confirmPassword = new javax.swing.JPasswordField();
+        userName = new javax.swing.JFormattedTextField();
+        name = new javax.swing.JFormattedTextField();
+        mobileNo = new javax.swing.JFormattedTextField();
+        email = new javax.swing.JFormattedTextField();
+
+        setDefaultCloseOperation(javax.swing.W
