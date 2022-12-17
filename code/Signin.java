@@ -67,4 +67,13 @@ public class Signin extends javax.swing.JFrame {
 
         jLabel2.setFont(new java.awt.Font("Adams", 0, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText(org.openide.util.NbBundle.getMessage(Signin.class, "Signin.jL
+        jLabel2.setText(org.openide.util.NbBundle.getMessage(Signin.class, "Signin.jLabel2.text")); // NOI18N
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addComponent(jLabel1)
+                .addGap(24, 24, 24)
+                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 251, javax.swing.GroupLayout.PREFERRED_SIZ
