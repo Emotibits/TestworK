@@ -94,4 +94,14 @@ public class Signin extends javax.swing.JFrame {
 
         jLabel3.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setText(org.openide.util.NbBundle.getMessage(Signin.class, "Signin.jLabel3.text")); //
+        jLabel3.setText(org.openide.util.NbBundle.getMessage(Signin.class, "Signin.jLabel3.text")); // NOI18N
+
+        jLabel4.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setText(org.openide.util.NbBundle.getMessage(Signin.class, "Signin.jLabel4.text")); // NOI18N
+
+        jLabel5.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setText(org.openide.util.NbBundle.getMessage(Signin.class, "Signin.jLabel5.text")); // NOI18N
+
+       
