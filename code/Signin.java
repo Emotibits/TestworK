@@ -111,4 +111,13 @@ public class Signin extends javax.swing.JFrame {
         jLabel7.setFont(new java.awt.Font("Tempus Sans ITC", 0, 18)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText(org.openide.util.NbBundle.getMessage(Signin.class, "Signin.jLabel7.text")); // NOI18N
-        jLabel7.setCursor(new java.awt.Cursor(java.aw
+        jLabel7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+
+        jLabel8.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel8.setText(org.openide.util.NbBundle.getMessage(Signin.class, "Signin.jLabel8.text")); // NOI18N
+        jLabel8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel8MouseClicked(evt);
+        
