@@ -148,4 +148,10 @@ public class Signin extends javax.swing.JFrame {
         password.setPreferredSize(new java.awt.Dimension(6, 30));
 
         confirmPassword.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        confirmPassword.s
+        confirmPassword.setText(org.openide.util.NbBundle.getMessage(Signin.class, "Signin.confirmPassword.text")); // NOI18N
+
+        userName.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        userName.setText(org.openide.util.NbBundle.getMessage(Signin.class, "Signin.userName.text")); // NOI18N
+        userName.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+
+        name.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
