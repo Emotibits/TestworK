@@ -139,4 +139,13 @@ public class Signin extends javax.swing.JFrame {
 
         jLabel11.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel11.setText(org.openide.util.NbBundle.getMessage(Signin.class, "Signin.jL
+        jLabel11.setText(org.openide.util.NbBundle.getMessage(Signin.class, "Signin.jLabel11.text")); // NOI18N
+
+        password.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        password.setText(org.openide.util.NbBundle.getMessage(Signin.class, "Signin.password.text")); // NOI18N
+        password.setMaximumSize(new java.awt.Dimension(6, 30));
+        password.setMinimumSize(new java.awt.Dimension(6, 30));
+        password.setPreferredSize(new java.awt.Dimension(6, 30));
+
+        confirmPassword.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        confirmPassword.s
