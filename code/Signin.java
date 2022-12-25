@@ -162,4 +162,12 @@ public class Signin extends javax.swing.JFrame {
         mobileNo.setText(org.openide.util.NbBundle.getMessage(Signin.class, "Signin.mobileNo.text")); // NOI18N
         mobileNo.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
 
-        email.setBorder(javax.swing.BorderFactory.createBeve
+        email.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        email.setText(org.openide.util.NbBundle.getMessage(Signin.class, "Signin.email.text")); // NOI18N
+        email.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLa
