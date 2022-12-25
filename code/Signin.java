@@ -155,3 +155,11 @@ public class Signin extends javax.swing.JFrame {
         userName.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
 
         name.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        name.setText(org.openide.util.NbBundle.getMessage(Signin.class, "Signin.name.text")); // NOI18N
+        name.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+
+        mobileNo.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        mobileNo.setText(org.openide.util.NbBundle.getMessage(Signin.class, "Signin.mobileNo.text")); // NOI18N
+        mobileNo.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+
+        email.setBorder(javax.swing.BorderFactory.createBeve
