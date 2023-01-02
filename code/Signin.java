@@ -186,4 +186,10 @@ public class Signin extends javax.swing.JFrame {
                             .addComponent(confirmPassword)
                             .addComponent(name)
                             .addComponent(userName)
-      
+                            .addComponent(mobileNo)
+                            .addComponent(email)
+                            .addComponent(password, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel2Layout.createSequentialGroup()
+                        .addGap(53, 53, 53)
+                        .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
+          
