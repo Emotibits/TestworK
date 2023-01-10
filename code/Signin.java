@@ -264,3 +264,18 @@ public class Signin extends javax.swing.JFrame {
       Login l =new Login();
       l.setVisible(true);
     }//GEN-LAST:event_jLabel8MouseClicked
+
+    private void jLabel9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel9MouseClicked
+        SigninCheck s = new SigninCheck();
+        
+        int vA=s.ValidAll(userName.getText().trim(), password.getText(), confirmPassword.getText());
+       // System.out.println("hlo" +vA);
+       
+        if(vA==1){
+           
+            JOptionPane.showMessageDialog(this, "invalid user Name");
+        }else
+            if(vA==2){
+          
+            JOptionPane.showMessageDialog(this, "Enter the password");
+           }else
