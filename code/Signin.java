@@ -279,3 +279,17 @@ public class Signin extends javax.swing.JFrame {
           
             JOptionPane.showMessageDialog(this, "Enter the password");
            }else
+             if(vA==3){
+            JOptionPane.showMessageDialog(this, "password does not matched with confirm ");
+            }else if(vA==4){
+            int vu=s.validUserName(userName.getText());
+            if(vu==0){
+               JOptionPane.showMessageDialog(this, "Enter a Valid User Name "); 
+            }
+            else
+            {
+                try{
+                Class.forName("com.mysql.jdbc.Driver");
+             Connection con =DriverManager.getConnection("jdbc:mysql://localhost:3306/SECURITY-Z", "root", "");
+             
+            
