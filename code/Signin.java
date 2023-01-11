@@ -292,4 +292,15 @@ public class Signin extends javax.swing.JFrame {
                 Class.forName("com.mysql.jdbc.Driver");
              Connection con =DriverManager.getConnection("jdbc:mysql://localhost:3306/SECURITY-Z", "root", "");
              
-            
+                     PreparedStatement stmt =con.prepareStatement("insert into signin_info values(?,?,?,?,?)");
+             stmt.setString(1,name.getText());
+             stmt.setString(2,userName.getText());
+             stmt.setString(3,password.getText());
+      //      stmt.setInt(4,12345);
+             stmt.setString(4,email.getText());
+              stmt.setInt(5,0);
+             stmt.execute();
+              JOptionPane.showMessageDialog(this, "Account created successfully"); 
+              
+                  Thread.sleep(1000);
+          
