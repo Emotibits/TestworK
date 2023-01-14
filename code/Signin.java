@@ -303,4 +303,18 @@ public class Signin extends javax.swing.JFrame {
               JOptionPane.showMessageDialog(this, "Account created successfully"); 
               
                   Thread.sleep(1000);
-          
+              this.dispose();
+              new Login().setVisible(true);
+              
+             
+                
+             
+         }      catch (ClassNotFoundException ex) {
+                       JOptionPane.showMessageDialog(this, "Database Drivers are not found ");
+                } catch (SQLException ex) {
+                     JOptionPane.showMessageDialog(this, "not Valid command "+ex.getMessage());
+                } catch (InterruptedException ex) {
+                    Exceptions.printStackTrace(ex);
+                }
+        
+            
