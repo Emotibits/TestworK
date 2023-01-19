@@ -380,4 +380,5 @@ public class Signin extends javax.swing.JFrame {
     private javax.swing.JFormattedTextField name;
     private javax.swing.JPasswordField password;
     private javax.swing.JFormattedTextField userName;
-    // End of
+    // End of variables declaration//GEN-END:variables
+}
