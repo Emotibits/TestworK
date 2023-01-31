@@ -561,3 +561,515 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel2.add(EncryptionWithDoubleDESP, "card15");
 
         EncryptionWithTripleDESP.setBackground(new java.awt.Color(51, 51, 51));
+
+        jButton3.setBackground(new java.awt.Color(0, 204, 204));
+        jButton3.setText("Click Here To Choose File");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+
+        path1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        jLabel49.setBackground(new java.awt.Color(51, 51, 255));
+        jLabel49.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel49.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel49.setText("Encrypt File ");
+        jLabel49.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel49.setOpaque(true);
+        jLabel49.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel49MouseClicked(evt);
+            }
+        });
+
+        jLabel84.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel84.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel84.setText("Encryption with Triple DES");
+
+        jLabel89.setBackground(new java.awt.Color(255, 204, 0));
+        jLabel89.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel89.setText("<Back");
+        jLabel89.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel89.setOpaque(true);
+        jLabel89.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel89MouseClicked(evt);
+            }
+        });
+
+        javax.swing.GroupLayout EncryptionWithTripleDESPLayout = new javax.swing.GroupLayout(EncryptionWithTripleDESP);
+        EncryptionWithTripleDESP.setLayout(EncryptionWithTripleDESPLayout);
+        EncryptionWithTripleDESPLayout.setHorizontalGroup(
+            EncryptionWithTripleDESPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(EncryptionWithTripleDESPLayout.createSequentialGroup()
+                .addGroup(EncryptionWithTripleDESPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(EncryptionWithTripleDESPLayout.createSequentialGroup()
+                        .addGap(98, 98, 98)
+                        .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 178, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(55, 55, 55)
+                        .addComponent(path1, javax.swing.GroupLayout.PREFERRED_SIZE, 323, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(EncryptionWithTripleDESPLayout.createSequentialGroup()
+                        .addComponent(jLabel89, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(155, 155, 155)
+                        .addComponent(jLabel84, javax.swing.GroupLayout.PREFERRED_SIZE, 244, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(EncryptionWithTripleDESPLayout.createSequentialGroup()
+                        .addGap(218, 218, 218)
+                        .addComponent(jLabel49, javax.swing.GroupLayout.PREFERRED_SIZE, 257, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(66, Short.MAX_VALUE))
+        );
+        EncryptionWithTripleDESPLayout.setVerticalGroup(
+            EncryptionWithTripleDESPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(EncryptionWithTripleDESPLayout.createSequentialGroup()
+                .addGroup(EncryptionWithTripleDESPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(EncryptionWithTripleDESPLayout.createSequentialGroup()
+                        .addGap(27, 27, 27)
+                        .addComponent(jLabel84, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabel89, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(50, 50, 50)
+                .addGroup(EncryptionWithTripleDESPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(path1)
+                    .addComponent(jButton3, javax.swing.GroupLayout.DEFAULT_SIZE, 40, Short.MAX_VALUE))
+                .addGap(54, 54, 54)
+                .addComponent(jLabel49, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(180, Short.MAX_VALUE))
+        );
+
+        jPanel2.add(EncryptionWithTripleDESP, "card16");
+
+        EncryptionWithDESP.setBackground(new java.awt.Color(51, 51, 51));
+
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel1.setText("Encryption with DES");
+
+        jButton2.setBackground(new java.awt.Color(0, 204, 204));
+        jButton2.setText("Enter Path here ");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+
+        path.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        jLabel12.setBackground(new java.awt.Color(51, 51, 255));
+        jLabel12.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel12.setText("Encrypt File ");
+        jLabel12.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel12.setOpaque(true);
+        jLabel12.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel12MouseClicked(evt);
+            }
+        });
+
+        jLabel88.setBackground(new java.awt.Color(255, 204, 0));
+        jLabel88.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel88.setText("<Back");
+        jLabel88.setOpaque(true);
+        jLabel88.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel88MouseClicked(evt);
+            }
+        });
+
+        javax.swing.GroupLayout EncryptionWithDESPLayout = new javax.swing.GroupLayout(EncryptionWithDESP);
+        EncryptionWithDESP.setLayout(EncryptionWithDESPLayout);
+        EncryptionWithDESPLayout.setHorizontalGroup(
+            EncryptionWithDESPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(EncryptionWithDESPLayout.createSequentialGroup()
+                .addGroup(EncryptionWithDESPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(EncryptionWithDESPLayout.createSequentialGroup()
+                        .addGap(98, 98, 98)
+                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 178, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(55, 55, 55)
+                        .addComponent(path, javax.swing.GroupLayout.PREFERRED_SIZE, 323, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(EncryptionWithDESPLayout.createSequentialGroup()
+                        .addComponent(jLabel88, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(66, 66, 66)
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 275, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(EncryptionWithDESPLayout.createSequentialGroup()
+                        .addGap(220, 220, 220)
+                        .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 257, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(66, Short.MAX_VALUE))
+        );
+        EncryptionWithDESPLayout.setVerticalGroup(
+            EncryptionWithDESPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(EncryptionWithDESPLayout.createSequentialGroup()
+                .addGroup(EncryptionWithDESPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(EncryptionWithDESPLayout.createSequentialGroup()
+                        .addGap(24, 24, 24)
+                        .addComponent(jLabel1))
+                    .addComponent(jLabel88, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(72, 72, 72)
+                .addGroup(EncryptionWithDESPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(path)
+                    .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, 40, Short.MAX_VALUE))
+                .addGap(59, 59, 59)
+                .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(175, Short.MAX_VALUE))
+        );
+
+        jPanel2.add(EncryptionWithDESP, "card14");
+
+        AboutUsP.setBackground(new java.awt.Color(51, 51, 51));
+
+        jTextArea1.setEditable(false);
+        jTextArea1.setBackground(new java.awt.Color(51, 51, 51));
+        jTextArea1.setColumns(20);
+        jTextArea1.setForeground(new java.awt.Color(255, 255, 255));
+        jTextArea1.setRows(5);
+        jTextArea1.setText("We are Three Friends Persuing Bca Last Year ,\nAnd Make this Project for our Final year project Submission.\n\nA big Thanks To all Our respected Teachers who Gave the Idea to Make this Project\n And also Help Us for this Project.");
+        jScrollPane1.setViewportView(jTextArea1);
+
+        VarunImage.setBackground(new java.awt.Color(255, 0, 255));
+        VarunImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/securityz/Images/IMG20190628120626.jpg"))); // NOI18N
+
+        MyImage.setBackground(new java.awt.Color(255, 51, 255));
+        MyImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/securityz/Images/IMG20190622134417.jpg"))); // NOI18N
+
+        BalkaranImage.setBackground(new java.awt.Color(204, 0, 255));
+        BalkaranImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/securityz/Images/59744702_1133281180197965_3973984040414871552_n.jpg"))); // NOI18N
+
+        jTextArea2.setEditable(false);
+        jTextArea2.setBackground(new java.awt.Color(51, 51, 51));
+        jTextArea2.setColumns(20);
+        jTextArea2.setForeground(new java.awt.Color(255, 255, 255));
+        jTextArea2.setLineWrap(true);
+        jTextArea2.setRows(3);
+        jTextArea2.setTabSize(7);
+        jTextArea2.setText("Blakaran Pal\nFront-end Programmer,\nData Collector");
+        jTextArea2.setAutoscrolls(false);
+        jTextArea2.setRequestFocusEnabled(false);
+        jScrollPane2.setViewportView(jTextArea2);
+
+        jTextArea3.setEditable(false);
+        jTextArea3.setBackground(new java.awt.Color(51, 51, 51));
+        jTextArea3.setColumns(20);
+        jTextArea3.setForeground(new java.awt.Color(255, 255, 255));
+        jTextArea3.setLineWrap(true);
+        jTextArea3.setRows(3);
+        jTextArea3.setTabSize(7);
+        jTextArea3.setText("Varun Sharma\nBack-end Programmer,\nData-Collector");
+        jTextArea3.setAutoscrolls(false);
+        jTextArea3.setRequestFocusEnabled(false);
+        jScrollPane3.setViewportView(jTextArea3);
+
+        jTextArea4.setEditable(false);
+        jTextArea4.setBackground(new java.awt.Color(51, 51, 51));
+        jTextArea4.setColumns(20);
+        jTextArea4.setForeground(new java.awt.Color(255, 255, 255));
+        jTextArea4.setLineWrap(true);
+        jTextArea4.setRows(3);
+        jTextArea4.setTabSize(7);
+        jTextArea4.setText("Lakshay Sudan\nFront-end+Back-end programmer \nData Collector");
+        jTextArea4.setAutoscrolls(false);
+        jTextArea4.setRequestFocusEnabled(false);
+        jScrollPane4.setViewportView(jTextArea4);
+
+        javax.swing.GroupLayout AboutUsPLayout = new javax.swing.GroupLayout(AboutUsP);
+        AboutUsP.setLayout(AboutUsPLayout);
+        AboutUsPLayout.setHorizontalGroup(
+            AboutUsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(AboutUsPLayout.createSequentialGroup()
+                .addGap(39, 39, 39)
+                .addGroup(AboutUsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 201, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(AboutUsPLayout.createSequentialGroup()
+                        .addGap(26, 26, 26)
+                        .addComponent(BalkaranImage)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(AboutUsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(AboutUsPLayout.createSequentialGroup()
+                        .addComponent(VarunImage)
+                        .addGap(78, 78, 78)
+                        .addComponent(MyImage))
+                    .addGroup(AboutUsPLayout.createSequentialGroup()
+                        .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 210, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(45, 45, 45)
+                        .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 246, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(128, 128, 128))
+            .addGroup(AboutUsPLayout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 759, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(129, 129, 129))
+        );
+        AboutUsPLayout.setVerticalGroup(
+            AboutUsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(AboutUsPLayout.createSequentialGroup()
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addGroup(AboutUsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(BalkaranImage, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(VarunImage, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(MyImage, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(AboutUsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 70, Short.MAX_VALUE)
+                    .addComponent(jScrollPane3)
+                    .addComponent(jScrollPane4))
+                .addGap(37, 37, 37))
+        );
+
+        jPanel2.add(AboutUsP, "card5");
+
+        ContactUsP.setBackground(new java.awt.Color(51, 51, 51));
+        ContactUsP.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, new java.awt.Color(0, 0, 0), null, null));
+        ContactUsP.setForeground(new java.awt.Color(51, 51, 51));
+
+        jTextArea5.setEditable(false);
+        jTextArea5.setBackground(new java.awt.Color(51, 51, 51));
+        jTextArea5.setColumns(20);
+        jTextArea5.setForeground(new java.awt.Color(255, 255, 255));
+        jTextArea5.setRows(5);
+        jTextArea5.setTabSize(5);
+        jTextArea5.setText("Contact Us If You want Support To/By Us for This Types of Services.\nThankyou And You can Contact Us By Following Informations.");
+        jScrollPane5.setViewportView(jTextArea5);
+
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel4.setText("Mobile No-   (+91) 9193334430");
+        jLabel4.setIconTextGap(5);
+
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel5.setText("WhatsApp-  (+91) 7668068987");
+        jLabel5.setIconTextGap(5);
+
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel7.setText("FaceBook -  https://www.facebook.com/profile.php?id=100028783660685");
+        jLabel7.setIconTextGap(5);
+
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel8.setText("Instagram -  https://www.instagram.com/lakshaysudan/");
+        jLabel8.setIconTextGap(5);
+
+        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel10.setText("(+91) 9917976768");
+
+        javax.swing.GroupLayout ContactUsPLayout = new javax.swing.GroupLayout(ContactUsP);
+        ContactUsP.setLayout(ContactUsPLayout);
+        ContactUsPLayout.setHorizontalGroup(
+            ContactUsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(ContactUsPLayout.createSequentialGroup()
+                .addGroup(ContactUsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(ContactUsPLayout.createSequentialGroup()
+                        .addGap(25, 25, 25)
+                        .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 743, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(ContactUsPLayout.createSequentialGroup()
+                        .addGroup(ContactUsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(ContactUsPLayout.createSequentialGroup()
+                                .addGap(12, 12, 12)
+                                .addComponent(jLabel14))
+                            .addGroup(ContactUsPLayout.createSequentialGroup()
+                                .addContainerGap()
+                                .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGroup(ContactUsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(ContactUsPLayout.createSequentialGroup()
+                                .addGap(22, 22, 22)
+                                .addGroup(ContactUsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 372, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 312, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGroup(ContactUsPLayout.createSequentialGroup()
+                                .addGap(18, 18, 18)
+                                .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 199, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addGroup(ContactUsPLayout.createSequentialGroup()
+                        .addGap(64, 64, 64)
+                        .addGroup(ContactUsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 199, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        ContactUsPLayout.setVerticalGroup(
+            ContactUsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(ContactUsPLayout.createSequentialGroup()
+                .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(7, 7, 7)
+                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(26, 26, 26)
+                .addGroup(ContactUsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(24, 24, 24)
+                .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 61, Short.MAX_VALUE))
+        );
+
+        jPanel2.add(ContactUsP, "card2");
+
+        jPanel3.setBackground(new java.awt.Color(255, 153, 0));
+
+        jLabel6.setBackground(new java.awt.Color(0, 102, 255));
+        jLabel6.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel6.setText("Index");
+        jLabel6.setOpaque(true);
+
+        jLabel37.setFont(new java.awt.Font("Lucida Console", 0, 14)); // NOI18N
+        jLabel37.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel37.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel37.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel37MouseClicked(evt);
+            }
+        });
+
+        jLabel38.setFont(new java.awt.Font("Lucida Console", 0, 14)); // NOI18N
+        jLabel38.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel38.setText("Cryptography");
+        jLabel38.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel38.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel38MouseClicked(evt);
+            }
+        });
+
+        jLabel39.setFont(new java.awt.Font("Lucida Console", 0, 14)); // NOI18N
+        jLabel39.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel39.setText("Encryption");
+        jLabel39.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel39.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel39MouseClicked(evt);
+            }
+        });
+
+        jLabel40.setFont(new java.awt.Font("Lucida Console", 0, 14)); // NOI18N
+        jLabel40.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel40.setText("Decryption");
+        jLabel40.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel40.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel40MouseClicked(evt);
+            }
+        });
+
+        jLabel41.setFont(new java.awt.Font("Lucida Console", 0, 14)); // NOI18N
+        jLabel41.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel41.setText("Algorithm Used");
+        jLabel41.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel41.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel41MouseClicked(evt);
+            }
+        });
+
+        jLabel42.setFont(new java.awt.Font("Lucida Console", 0, 14)); // NOI18N
+        jLabel42.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel42.setText("DES");
+        jLabel42.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel42.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel42MouseClicked(evt);
+            }
+        });
+
+        jLabel43.setFont(new java.awt.Font("Lucida Console", 0, 14)); // NOI18N
+        jLabel43.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel43.setText("Triple DES");
+        jLabel43.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel43.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel43MouseClicked(evt);
+            }
+        });
+
+        jLabel44.setFont(new java.awt.Font("Lucida Console", 0, 14)); // NOI18N
+        jLabel44.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel44.setText("AES");
+        jLabel44.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel44.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel44MouseClicked(evt);
+            }
+        });
+
+        jLabel11.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel11.setText("<Back");
+        jLabel11.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel11MouseClicked(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
+        jPanel3.setLayout(jPanel3Layout);
+        jPanel3Layout.setHorizontalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel44)
+                    .addComponent(jLabel43)
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addGap(3, 3, 3)
+                        .addComponent(jLabel11))
+                    .addComponent(jLabel39)
+                    .addComponent(jLabel40)
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addGap(1, 1, 1)
+                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel41)
+                            .addComponent(jLabel42)))
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addComponent(jLabel37)
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabel38))
+                .addGap(0, 19, Short.MAX_VALUE))
+        );
+        jPanel3Layout.setVerticalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addComponent(jLabel11)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addGap(41, 41, 41)
+                        .addComponent(jLabel37))
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(18, 18, 18)
+                .addComponent(jLabel38)
+                .addGap(29, 29, 29)
+                .addComponent(jLabel39)
+                .addGap(39, 39, 39)
+                .addComponent(jLabel40)
+                .addGap(34, 34, 34)
+                .addComponent(jLabel41)
+                .addGap(33, 33, 33)
+                .addComponent(jLabel42)
+                .addGap(26, 26, 26)
+                .addComponent(jLabel43)
+                .addGap(29, 29, 29)
+                .addComponent(jLabel44)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jPanel4.setLayout(new java.awt.CardLayout());
+
+        AboutAppP1.setBackground(new java.awt.Color(51, 51, 51));
+
+        jTextArea8.setColumns(20);
+        jTextArea8.setRows(5);
+        jTextArea8.setText("We are Three Friends Persuing Bca Last Year ,\nAnd Make this Project for our Final year project Submission.\n\nA big Thanks To all Our respected Teachers who Gave the Idea to Make this\n Project\n And also Help Us for this Project.");
+        jScrollPane8.setViewportView(jTextArea8);
+
+        javax.swing.GroupLayout AboutAppP1Layout = new javax.swing.GroupLayout(AboutAppP1);
+        AboutAppP1.setLayout(AboutAppP1Layout);
+        AboutAppP1Layout.setHorizontalGroup(
+            AboutAppP1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(AboutAppP1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 618, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(62, Short.MAX_VALUE))
