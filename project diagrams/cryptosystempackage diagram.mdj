@@ -1,0 +1,83 @@
+
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				},
+				{
+					"_type": "UMLPackageDiagram",
+					"_id": "AAAAAAF85h94ORh7YvQ=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "cryptosystemPackageDiagram",
+					"ownedViews": [
+						{
+							"_type": "UMLPackageView",
+							"_id": "AAAAAAF85h+hGRiA4OM=",
+							"_parent": {
+								"$ref": "AAAAAAF85h94ORh7YvQ="
+							},
+							"model": {
+								"$ref": "AAAAAAF85h+hGRh+qXw="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAF85h+hGhiBYqw=",
+									"_parent": {
+										"$ref": "AAAAAAF85h+hGRiA4OM="
+									},
+									"model": {
+										"$ref": "AAAAAAF85h+hGRh+qXw="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF85h+hGhiCxKA=",
+											"_parent": {
+												"$ref": "AAAAAAF85h+hGhiBYqw="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF85h+hGhiDQuQ=",
+											"_parent": {
+												"$ref": "AAAAAAF85h+hGhiBYqw="
+											},
+											"font": "Arial;13;1",
+											"left": 149,
+											"top": 46,
+											"width": 455,
+											"height": 13,
+											"text": "UI"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF85h+hGhiEh+s=",
+											"_parent": {
+												"$ref": "AAAAAAF85h+hGhiBYqw="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"width": 73.67724609375,

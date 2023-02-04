@@ -2105,3 +2105,487 @@ public class NewJFrame extends javax.swing.JFrame {
            jPanel4.add(AboutDecryptionP);
         jPanel4.repaint();
         jPanel4.revalidate();
+    }//GEN-LAST:event_jLabel40MouseClicked
+
+    private void jLabel41MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel41MouseClicked
+      jPanel4.removeAll();
+      jPanel4.add(AboutAlgorithmsP);
+        jPanel4.repaint();
+        jPanel4.revalidate();
+    }//GEN-LAST:event_jLabel41MouseClicked
+
+    private void jLabel42MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel42MouseClicked
+       jPanel4.removeAll();
+           jPanel4.add(DESP);
+        jPanel4.repaint();
+        jPanel4.revalidate();
+    }//GEN-LAST:event_jLabel42MouseClicked
+
+    private void jLabel43MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel43MouseClicked
+       jPanel4.removeAll();
+           jPanel4.add(Des3P);
+        jPanel4.repaint();
+        jPanel4.revalidate();
+    }//GEN-LAST:event_jLabel43MouseClicked
+
+    private void jLabel44MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel44MouseClicked
+         jPanel4.removeAll();
+           jPanel4.add(AesP);
+        jPanel4.repaint();
+        jPanel4.revalidate();
+    }//GEN-LAST:event_jLabel44MouseClicked
+
+    private void jLabel57MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel57MouseClicked
+        jPanel4.removeAll();
+        jPanel4.add(AboutEncryptionP);
+        jPanel4.repaint();
+        jPanel4.revalidate();
+    }//GEN-LAST:event_jLabel57MouseClicked
+
+    private void jLabel47MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel47MouseClicked
+        
+    }//GEN-LAST:event_jLabel47MouseClicked
+
+    private void jLabel32MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel32MouseClicked
+        jPanel2.removeAll();
+        jPanel2.add(HomeP);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+    }//GEN-LAST:event_jLabel32MouseClicked
+
+    private void jLabel61MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel61MouseClicked
+jPanel2.removeAll();
+        jPanel2.add(SettingsP);
+        jPanel2.repaint();
+        jPanel2.revalidate();    }//GEN-LAST:event_jLabel61MouseClicked
+
+    private void jLabel35MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel35MouseClicked
+        jPanel2.removeAll();
+        jPanel2.add(ResetAccountP);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+    }//GEN-LAST:event_jLabel35MouseClicked
+
+    private void jLabel64MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel64MouseClicked
+        jPanel2.removeAll();
+        jPanel2.add(SettingsP);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+    }//GEN-LAST:event_jLabel64MouseClicked
+
+    private void jLabel33MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel33MouseClicked
+ jPanel2.removeAll();
+        jPanel2.add(confirmPass);
+        jPanel2.repaint();
+        jPanel2.revalidate();    }//GEN-LAST:event_jLabel33MouseClicked
+
+    private void jLabel34MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel34MouseClicked
+        
+    }//GEN-LAST:event_jLabel34MouseClicked
+
+    private void jLabel72MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel72MouseClicked
+         jPanel2.removeAll();
+        jPanel2.add(SettingsP);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+    }//GEN-LAST:event_jLabel72MouseClicked
+
+    private void jLabel28MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel28MouseClicked
+       jPanel2.removeAll();
+        jPanel2.add(h);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+                ujh.setText(Login.uUserName);
+                jk.setText(Login.uName);
+                fjk.setText(Login.uEmail);
+        
+    }//GEN-LAST:event_jLabel28MouseClicked
+
+    private void jLabel52MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel52MouseClicked
+       jPanel2.removeAll();
+        jPanel2.add(EncryptionWithDESP);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+    }//GEN-LAST:event_jLabel52MouseClicked
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+     
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+       
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+       
+    }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jLabel55MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel55MouseClicked
+        jPanel2.removeAll();
+        jPanel2.add(EncryptionWithDoubleDESP);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+    }//GEN-LAST:event_jLabel55MouseClicked
+
+    private void jLabel56MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel56MouseClicked
+       jPanel2.removeAll();
+        jPanel2.add(EncryptionWithTripleDESP);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+    }//GEN-LAST:event_jLabel56MouseClicked
+
+    private void jLabel89MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel89MouseClicked
+         jPanel2.removeAll();
+        jPanel2.add(EncryptionP);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+        fileName="";
+        path1.setText(fileName);
+        
+    }//GEN-LAST:event_jLabel89MouseClicked
+
+    private void jLabel13MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel13MouseClicked
+        jPanel2.removeAll();
+        jPanel2.add(EncryptionP);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+        fileName="";
+        path2.setText(fileName);
+    }//GEN-LAST:event_jLabel13MouseClicked
+
+    private void jLabel88MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel88MouseClicked
+         jPanel2.removeAll();
+        jPanel2.add(EncryptionP);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+        fileName="";
+        path.setText(fileName);
+    }//GEN-LAST:event_jLabel88MouseClicked
+
+    private void jLabel92MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel92MouseClicked
+        jPanel2.removeAll();
+        jPanel2.add(HomeP);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+    }//GEN-LAST:event_jLabel92MouseClicked
+
+    private void jLabel11MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel11MouseClicked
+         jPanel2.removeAll();
+        jPanel2.add(HomeP);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+    }//GEN-LAST:event_jLabel11MouseClicked
+
+    private void jLabel9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel9MouseClicked
+       this.dispose();
+       new Login().setVisible(true);
+    }//GEN-LAST:event_jLabel9MouseClicked
+
+    private void jLabel87MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel87MouseClicked
+        fileName=path2.getText(); 
+        Encryptor en = Encryptor.getEncrypter(true);
+		Decryptor de = Decryptor.getDecrypter(true);
+		
+		File src = new File(fileName);
+		// File dst = new File("C:\\dst");
+		en.encrypt(src,src);
+    }//GEN-LAST:event_jLabel87MouseClicked
+
+    private void jLabel12MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel12MouseClicked
+fileName=path.getText();
+        Encryptor en = Encryptor.getEncrypter(true);
+		Decryptor de = Decryptor.getDecrypter(true);
+		
+		File src = new File(fileName);
+		// File dst = new File("C:\\dst");
+		en.encrypt(src,src);
+    }//GEN-LAST:event_jLabel12MouseClicked
+
+    private void jLabel49MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel49MouseClicked
+        fileName=path1.getText();
+        Encryptor en = Encryptor.getEncrypter(true);
+		Decryptor de = Decryptor.getDecrypter(true);
+		
+		File src = new File(fileName);
+		// File dst = new File("C:\\dst");
+		en.encrypt(src,src);
+	//de.decrypt(src, src);
+    }//GEN-LAST:event_jLabel49MouseClicked
+
+    private void jLabel90MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel90MouseClicked
+        fileName=pathD.getText();         
+       Encryptor en = Encryptor.getEncrypter(true);
+		Decryptor de = Decryptor.getDecrypter(true);
+		
+		File src = new File(fileName);
+		File dst = new File("C:\\dst");
+		//en.encrypt(src,src);
+	de.decrypt(src, src);
+    }//GEN-LAST:event_jLabel90MouseClicked
+
+    private void jLabel74MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel74MouseClicked
+        jPanel2.removeAll();
+        jPanel2.add(HomeP);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+    }//GEN-LAST:event_jLabel74MouseClicked
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        
+    }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jLabel96MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel96MouseClicked
+       jPanel2.removeAll();
+        jPanel2.add(h);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+    }//GEN-LAST:event_jLabel96MouseClicked
+
+    private void jLabel95MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel95MouseClicked
+        jPanel2.removeAll();
+        jPanel2.add(HomeP);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+    }//GEN-LAST:event_jLabel95MouseClicked
+
+    private void oldPassActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_oldPassActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_oldPassActionPerformed
+
+    private void jLabel68MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel68MouseClicked
+        if(oldPass.getText().equals(Login.uPassword)| newPass.getText().equals(cp.getText()))
+        {
+            try{ 
+           String sql= "update signin_info set password="+Login.uPassword+" where username="+ Login.uUserName;
+                   Class.forName("com.mysql.jdbc.Driver");
+             Connection con =DriverManager.getConnection("jdbc:mysql://localhost:3306/security-z","root","");
+             PreparedStatement stmt = con.prepareStatement("update Signin_info set password=? where userName=?"); {
+      stmt.setString(1, newPass.getText());
+      stmt.setString(2, Login.uUserName);
+      stmt.executeUpdate();
+       
+     
+      JOptionPane.showMessageDialog(this, "old  password changed Successfully");
+                
+            }  
+         jPanel2.removeAll();
+        jPanel2.add(SettingsP);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+        }  catch(Exception e){
+           System.out.println(e.getMessage()+""+e.getStackTrace()+""+e);
+            
+         }
+             
+        }
+        
+            else
+                  JOptionPane.showMessageDialog(this, "old  password is wrong or may be confirm Password is not matched");
+          
+        
+    }//GEN-LAST:event_jLabel68MouseClicked
+
+    private void jLabel79MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel79MouseClicked
+       ujh.setText(Login.uUserName);
+                jk.setText(Login.uName);
+                fjk.setText(Login.uEmail);
+                jPanel2.removeAll();
+        jPanel2.add(SettingsP);
+        jPanel2.repaint();
+        jPanel2.revalidate();
+    }
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String args[]) {
+        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+         */
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(NewJFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(NewJFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(NewJFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(NewJFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+        //</editor-fold>
+
+        /* Create and display the form */
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new NewJFrame().setVisible(true);
+            }
+        });
+    }
+String fileName;
+    private javax.swing.JPanel AboutAlgorithmsP;
+    private javax.swing.JPanel AboutAppP1;
+    private javax.swing.JPanel AboutDecryptionP;
+    private javax.swing.JPanel AboutEncryptionP;
+    private javax.swing.JLabel AboutUsL;
+    private javax.swing.JPanel AboutUsP;
+    private javax.swing.JPanel AesP;
+    private javax.swing.JPanel AnalyticsP;
+    private javax.swing.JLabel BalkaranImage;
+    private javax.swing.JLabel ContactUsL;
+    private javax.swing.JPanel ContactUsP;
+    private javax.swing.JPanel CryptographyP;
+    private javax.swing.JPanel DESP;
+    private javax.swing.JPanel DecryptionP;
+    private javax.swing.JPanel Des3P;
+    private javax.swing.JPanel EncryptionP;
+    private javax.swing.JPanel EncryptionWithDESP;
+    private javax.swing.JPanel EncryptionWithDoubleDESP;
+    private javax.swing.JPanel EncryptionWithTripleDESP;
+    private javax.swing.JLabel HomeL;
+    private javax.swing.JPanel HomeP;
+    private javax.swing.JLabel LearnApp;
+    private javax.swing.JPanel LearnAppP;
+    private javax.swing.JLabel MyImage;
+    private javax.swing.JPanel ResetAccountP;
+    private javax.swing.JPanel SettingsP;
+    private javax.swing.JLabel VarunImage;
+    private javax.swing.JPanel confirmPass;
+    private javax.swing.JPasswordField cp;
+    private javax.swing.JFormattedTextField email;
+    private javax.swing.JLabel fjk;
+    private javax.swing.JPanel h;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
+    private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
+    private javax.swing.JLabel jLabel37;
+    private javax.swing.JLabel jLabel38;
+    private javax.swing.JLabel jLabel39;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel40;
+    private javax.swing.JLabel jLabel41;
+    private javax.swing.JLabel jLabel42;
+    private javax.swing.JLabel jLabel43;
+    private javax.swing.JLabel jLabel44;
+    private javax.swing.JLabel jLabel47;
+    private javax.swing.JLabel jLabel48;
+    private javax.swing.JLabel jLabel49;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel52;
+    private javax.swing.JLabel jLabel55;
+    private javax.swing.JLabel jLabel56;
+    private javax.swing.JLabel jLabel57;
+    private javax.swing.JLabel jLabel58;
+    private javax.swing.JLabel jLabel59;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel60;
+    private javax.swing.JLabel jLabel61;
+    private javax.swing.JLabel jLabel62;
+    private javax.swing.JLabel jLabel63;
+    private javax.swing.JLabel jLabel64;
+    private javax.swing.JLabel jLabel65;
+    private javax.swing.JLabel jLabel66;
+    private javax.swing.JLabel jLabel67;
+    private javax.swing.JLabel jLabel68;
+    private javax.swing.JLabel jLabel69;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel72;
+    private javax.swing.JLabel jLabel73;
+    private javax.swing.JLabel jLabel74;
+    private javax.swing.JLabel jLabel78;
+    private javax.swing.JLabel jLabel79;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel83;
+    private javax.swing.JLabel jLabel84;
+    private javax.swing.JLabel jLabel86;
+    private javax.swing.JLabel jLabel87;
+    private javax.swing.JLabel jLabel88;
+    private javax.swing.JLabel jLabel89;
+    private javax.swing.JLabel jLabel9;
+    private javax.swing.JLabel jLabel90;
+    private javax.swing.JLabel jLabel91;
+    private javax.swing.JLabel jLabel92;
+    private javax.swing.JLabel jLabel93;
+    private javax.swing.JLabel jLabel94;
+    private javax.swing.JLabel jLabel95;
+    private javax.swing.JLabel jLabel96;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel4;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane10;
+    private javax.swing.JScrollPane jScrollPane11;
+    private javax.swing.JScrollPane jScrollPane12;
+    private javax.swing.JScrollPane jScrollPane13;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
+    private javax.swing.JScrollPane jScrollPane5;
+    private javax.swing.JScrollPane jScrollPane6;
+    private javax.swing.JScrollPane jScrollPane7;
+    private javax.swing.JScrollPane jScrollPane8;
+    private javax.swing.JScrollPane jScrollPane9;
+    private javax.swing.JTextArea jTextArea1;
+    private javax.swing.JTextArea jTextArea10;
+    private javax.swing.JTextArea jTextArea11;
+    private javax.swing.JTextArea jTextArea12;
+    private javax.swing.JTextArea jTextArea13;
+    private javax.swing.JTextArea jTextArea2;
+    private javax.swing.JTextArea jTextArea3;
+    private javax.swing.JTextArea jTextArea4;
+    private javax.swing.JTextArea jTextArea5;
+    private javax.swing.JTextArea jTextArea6;
+    private javax.swing.JTextArea jTextArea7;
+    private javax.swing.JTextArea jTextArea8;
+    private javax.swing.JTextArea jTextArea9;
+    private javax.swing.JLabel jk;
+    private javax.swing.JFormattedTextField name;
+    private javax.swing.JPasswordField newPass;
+    private javax.swing.JPasswordField oldPass;
+    private javax.swing.JFormattedTextField pEmail;
+    private javax.swing.JFormattedTextField pName;
+    private javax.swing.JFormattedTextField pUserName;
+    private javax.swing.JFormattedTextField path;
+    private javax.swing.JFormattedTextField path1;
+    private javax.swing.JFormattedTextField path2;
+    private javax.swing.JFormattedTextField pathD;
+    private javax.swing.JLabel ujh;
+    private javax.swing.JFormattedTextField userName;
+}
