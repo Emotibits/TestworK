@@ -1,0 +1,156 @@
+
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Crypto System",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAF81dmMuQbgdxE=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Domain Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAF81dmMuQbhyUM=",
+					"_parent": {
+						"$ref": "AAAAAAF81dmMuQbgdxE="
+					},
+					"ownedViews": [
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAF85x1WvO7pRvs=",
+							"_parent": {
+								"$ref": "AAAAAAF81dmMuQbhyUM="
+							},
+							"model": {
+								"$ref": "AAAAAAF81dmrOwb3mmU="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAF85x1WvO7qx2Q=",
+									"_parent": {
+										"$ref": "AAAAAAF85x1WvO7pRvs="
+									},
+									"model": {
+										"$ref": "AAAAAAF81dmrOwb3mmU="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF85x1WvO7rfPI=",
+											"_parent": {
+												"$ref": "AAAAAAF85x1WvO7qx2Q="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 690,
+											"top": 589,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF85x1WvO7s4Ug=",
+											"_parent": {
+												"$ref": "AAAAAAF85x1WvO7qx2Q="
+											},
+											"font": "Arial;13;1",
+											"left": 535,
+											"top": 452,
+											"width": 149.9951171875,
+											"height": 13,
+											"text": "ENCRYPT OR DECRYPT"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF85x1WvO7tJI0=",
+											"_parent": {
+												"$ref": "AAAAAAF85x1WvO7qx2Q="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 690,
+											"top": 589,
+											"width": 227.5888671875,
+											"height": 13,
+											"text": "(from Domain Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF85x1WvO7ujUY=",
+											"_parent": {
+												"$ref": "AAAAAAF85x1WvO7qx2Q="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 690,
+											"top": 589,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 530,
+									"top": 445,
+									"width": 159.9951171875,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAF85x1WvO7rfPI="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAF85x1WvO7s4Ug="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAF85x1WvO7tJI0="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAF85x1WvO7ujUY="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAF85x1WvO7v0oM=",
+									"_parent": {
+										"$ref": "AAAAAAF85x1WvO7pRvs="
+									},
+									"model": {
+										"$ref": "AAAAAAF81dmrOwb3mmU="
+									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF85x1WvO7w7PY=",
+											"_parent": {
+												"$ref": "AAAAAAF85x1WvO7v0oM="
+											},
+											"model": {
+												"$ref": "AAAAAAF81eBDMgkiSrA="
+											},
+											"font": "Arial;13;0",
+											"left": 535,
+											"top": 475,
+											"width": 149.9951171875,
+											"height": 13,
+											"text": "+generate key",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF85x1WvO7xbJE=",
+											"_parent": {
+												"$ref": "AAAAAAF85x1WvO7v0oM="
+											},
+											"model": {
+												"$ref": "AAAAAAF81eByaQkp+rY="
+											},
+											"font": "Arial;13;0",
+											"left": 535,
+											"top": 490,
+											"width": 149.9951171875,
+											"height": 13,
+											"text": "+encrypt file",
+											"horizontalAlignment": 0
+										},
